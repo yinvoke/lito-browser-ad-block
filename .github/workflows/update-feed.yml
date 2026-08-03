@@ -1,0 +1,105 @@
+name: Update daily filter feed
+
+on:
+  schedule:
+    - cron: "17 03 * * *"
+      timezone: "Asia/Singapore"
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Fetch all upstreams with strict gates
+        run: python3 tools/fetch_filters.py build/raw --report build/reports/fetch.json
+
+      - name: Compile compact Lito snapshot
+        run: python3 tools/build_filters.py build/raw build/release --report build/reports/build.json
+
+      - name: Validate release
+        run: python3 tools/validate_snapshot.py build/release
+
+      - name: Create release status
+        run: python3 tools/write_release_status.py build/reports/fetch.json build/reports/build.json build/status/latest.json
+
+      - name: Upload validated release
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: lito-filter-release-${{ github.run_id }}
+          path: |
+            build/release/
+            build/reports/
+            build/status/latest.json
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 9
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+
+      - name: Download validated release
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: lito-filter-release-${{ github.run_id }}
+          path: build/artifact
+
+      - name: Publish release files
+        run: |
+          python3 tools/validate_snapshot.py build/artifact/release
+          rm -rf public/v1
+          mkdir -p public/v1 status
+          install -m 0644 build/artifact/release/* public/v1/
+          install -m 0644 build/artifact/status/latest.json status/latest.json
+          python3 tools/validate_snapshot.py public/v1
+
+      - name: Record release
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- public/v1 status/latest.json
+          git commit -m "规则:发布每日更新"
+          git push origin HEAD:main
+
+      - name: Configure Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: public
+
+  deploy:
+    needs: publish
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

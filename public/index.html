@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Lito 广告拦截规则</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, sans-serif; color-scheme: light dark; }
+    body { max-width: 720px; margin: 0 auto; padding: 48px 22px; line-height: 1.65; }
+    h1 { font-size: 1.8rem; margin-bottom: .4rem; }
+    .muted { opacity: .68; }
+    .card { margin: 28px 0; padding: 18px 20px; border: 1px solid color-mix(in srgb, currentColor 18%, transparent); border-radius: 14px; }
+    code { overflow-wrap: anywhere; }
+    a { color: #2676d8; }
+    li + li { margin-top: .45rem; }
+  </style>
+</head>
+<body>
+  <h1>Lito 广告拦截规则</h1>
+  <p class="muted">Lito Browser 使用的可复现编译快照。</p>
+
+  <div class="card">
+    <div>当前发布版本：<strong id="version">正在读取…</strong></div>
+    <div>更新根地址：<code>https://yinvoke.github.io/lito-browser-ad-block/v1/</code></div>
+  </div>
+
+  <p>规则由 AdGuard DNS、HaGeZi Pro、HaGeZi TIF Mini、anti-AD 和 AdGuard Chinese 组合，经格式解析、去重与父域折叠后发布。</p>
+  <ul>
+    <li><a href="v1/manifest.txt">查看发布清单</a></li>
+    <li><a href="v1/sources.json">查看上游更新时间</a></li>
+    <li><a href="https://github.com/yinvoke/lito-browser-ad-block">查看构建源码与第三方声明</a></li>
+  </ul>
+  <p class="muted">Lito 通过 HTTPS 获取规则，并逐文件验证长度和 SHA-256。验证失败或发生版本回滚时不会安装。</p>
+
+  <script>
+    fetch('v1/version.txt', { cache: 'no-store' })
+      .then(response => { if (!response.ok) throw new Error(); return response.text(); })
+      .then(version => { document.getElementById('version').textContent = version.trim(); })
+      .catch(() => { document.getElementById('version').textContent = '暂不可用'; });
+  </script>
+</body>
+</html>

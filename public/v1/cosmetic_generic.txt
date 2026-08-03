@@ -1,0 +1,1029 @@
+#ADtip
+#Ad_windows
+#ChapterView > .slide-baidu
+#J_sideFooter.side_footer
+#Layeraa1
+#Layeraa2
+#MsnDialog.ad
+#MyMoveAd
+#QEff1
+#QEff2
+#QQ_Full
+#ZAML
+#Zi_ad_a_H
+#\31 280_adv
+#\31 x1_container.float-banner-footer
+#__ads_dp
+#__long_gg_container
+#aafoot.top_box
+#aafoot[class^="top_box"]
+#aaheadtop
+#aatop.top_box
+#aatop[class^="top_box"]
+#ad > #h2_player_prevideo
+#ad > .pre-img
+#ad-SNSSplashAd
+#ad-float.kyty
+#ad-floatwin
+#ad1[onclick="window.open(this.url)"]
+#ad1[style^="position:"]
+#adBody07
+#adLeftFloat
+#adRightFloat
+#adUrl
+#ad_box1
+#ad_box2
+#ad_full
+#ad_globle_div
+#ad_headerbanner
+#adad
+#adrights14
+#ads.row
+#ads_c_tpc
+#ads_top_video
+#adtop1
+#adv-2
+#adv-3
+#adv-fixed-square
+#adv_wrap_hh
+#adx_cggp
+#alert_windows > .q-dialog__backdrop
+#app > .publicAllContentBg > .bigBannerBg
+#appad.cate
+#apprecom1.apprecom
+#apprecom2.apprecom
+#arBRyGHxuDYU
+#asdw
+#asdw2
+#asdw2 + img
+#aside_cat_ad_bottom
+#asx_text
+#banner_links.banner-container
+#bfad
+#bfad1
+#bfad2
+#bfad3
+#bfad4
+#bfad5
+#bfad6
+#bl_mobile_float
+#body > #left-promotion
+#body > #right-promotion
+#bottom-gg1
+#bottomAD
+#bottomNavad
+#bottombanner
+#bottommob.bottommob
+#breadCrumb + .c + .t[style="margin-top:8px"]
+#breadCrumb + .t[style="margin-top:8px"]
+#cat_intro_first_ad
+#cat_intro_second_ad
+#chs_bannerArea
+#comic_reader + #adDisabledBtn
+#comiis_xizi_gg02
+#container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
+#container > .sectionBanner
+#cpro_container
+#crazy_ad_float
+#crazy_ad_layer
+#cs_left_couplet
+#cs_right_couplet
+#dbgg
+#dgf_pc
+#diads
+#div_top_ads
+#downdiv > .downcode
+#duilian_left
+#duilian_right
+#dy_card_dy
+#eis_pad1
+#eis_pad2
+#everydayadv_mask
+#fc_foot > #f_skyf
+#fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
+#fk_faiVisitStateAd
+#float-ad
+#floatad-winpop
+#fnbt
+#foot > #btmBox
+#footer_fix_ggw
+#frameS8CyqB
+#fucku.col-md-8
+#fuo_top_float
+#fwin_popad_7ree
+#fwin_popad_7ree + #fwin_dialog
+#gg300
+#gg_url
+#googleAD1
+#googleAD2
+#googleAD3
+#googleAdIndexTop
+#gridAdvContent
+#gridAdvoOerlay
+#guanggao1[style^="position"]
+#guanggao2[style^="position"]
+#gudingweiDiv
+#haoxinqing_me_img
+#header + #topBox
+#header-top + .advertisement
+#header_global_ad
+#hellobox > .mylist
+#hengfu > #jiukan
+#hengfu1.banner
+#hengfu2.banner
+#hfad
+#hj-right-aside[style="float: right;"]
+#imgad
+#imgs5[height="60px"]
+#index-ad-banner
+#index_aside_ad
+#index_banner[src*=".imgdd.com"]
+#index_banner[src*=".meituan.net"]
+#index_content_ad
+#interstitial_fade[style^="display: block"]
+#j-new-ad
+#js-ad-map
+#js-ysjpp
+#js_ads_banner_top
+#js_ads_banner_top_slide
+#kfpopupDiv
+#ks > .DaKuang
+#ldgindexbuttom
+#leftCouple
+#leftCouple1
+#leftCouplet
+#leftFloat + #rightFloat
+#leftFloat1 + #rightFloat1
+#leftFloat[style="z-index: 999; position: fixed; left: 0px; bottom: 0px;"]
+#left_couple
+#left_couplet.close_discor
+#left_down_float_ad
+#left_float + #right_float
+#left_float.close_discor
+#left_up_float_ad
+#lefttd.lefttd
+#ljPz
+#lovexin1
+#lovexin11
+#lovexin12
+#lovexin121
+#lovexin13
+#lovexin14
+#lovexin2
+#lt-ad-radio
+#magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+#mainbody:nth-child(5) > .mylist
+#menu + #topBox
+#menu + script + #topBox
+#miaov_float_layer
+#micast_ads
+#modalgg
+#movieInfoRight
+#movietp > .movietp
+#mui-player + #player_pic
+#mv_ad_dom
+#mv_float_layer
+#my-adsFPR
+#my_dp_a
+#my_gd_a
+#nav + .slider-spons
+#nav-home > .coment-bottom
+#navcontainer + .moneyarea
+#netease_mail_footer
+#news_top_advert
+#olfullad
+#overture_ads_bottom_td
+#overture_ads_top_td
+#photo--content-title-bottomx--foot
+#piao_div_0[style*="width:140px;"]
+#piao_div_1[style*="width:140px;"]
+#piao_div_2[style*="width:140px;"]
+#piao_div_3[style*="width:140px;"]
+#piao_div_4[style*="width:140px;"]
+#piao_div_5[style*="width:140px;"]
+#play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
+#player-bottom-ads
+#playerAdvLayer
+#playerJsvLayer.jsv-layer
+#player_banner[style*="fixed;"]
+#player_pause > .tip + a[target="_blank"]
+#player_pause[style^="position"] > a[target="_blank"]
+#playlistbtn > a[href$=".html"]
+#popadv_popmask
+#popadv_popmenu
+#popup.t
+#pp-modal-id
+#projectpostbody > a[target="_blank"]
+#propagandaInsert[style="display: flex;"]
+#ptcmsad1
+#qinav_a1
+#qj960a
+#qj960b
+#reportPop
+#results.content-main > .eLeft
+#rightCouple
+#rightCouple + #leftFloat
+#rightCouple1
+#rightCouple1 + #leftFloat1
+#rightCouplet
+#rightCouplet + #leftFloat
+#right_couple
+#right_couple + #left_float
+#right_couplet.close_discor
+#right_down_float_ad
+#right_float.close_discor
+#right_up_float_ad
+#rightd.rightd
+#rip[href*=".taobao.com"]
+#rm-float3
+#sc-superman-ad
+#search > a[href="/top1.html"]
+#side_promo.bc_dp
+#sitefocus.focus
+#snActive-wrap
+#sponsorAdDiv2
+#swtleft[style^="position:fixed;"]
+#syad.visible-xs
+#syad1
+#syad2
+#syad3
+#syad4
+#syad5
+#syad6
+#table1[width="468"][height="50"]
+#table1[width="794"][height="60"]
+#table1[width="812"][height="50"]
+#table1[width="812"][height="60"]
+#tanx-con-1
+#tanx-fold-main
+#taotaole
+#td_tpc > .ads
+#textggs
+#timedfuo
+#top-gg-container
+#topNavad
+#top_ads0
+#top_box > a[onclick^="javascript"]
+#toperAd2
+#toptb + div[align="center"]
+#toptd.toptd
+#tripadvisor-ad
+#undertd.undertd
+#videoADPIC
+#video_playr_side.video_playr_sider.videoplayerside
+#vpnModal.nordvpn-popup
+#widget-quan
+#wp > .V-video-float
+#wp > .V-videoFloat
+#wrapper > .topad
+#xinnxi
+#xqad
+#xqad1
+#xqad2
+#xqad3
+.AD_TAC_BOX
+.Flagrow-Ads-under-header
+.MacPlayer > #play-pause
+.RMss1
+.Text-Advertising
+.TqAdShow
+.Zi_ad_a_H
+.Zi_ad_a_SB
+._300x250.item
+._cggp
+._ggs
+._v_ad_container
+.a-media.ex-728-90
+.a_2mu
+.a_cn
+.a_fl
+.a_fr
+.a_oscar1
+.a_pb
+.a_ssk_cn
+.a_sxc
+.a_sxfl
+.a_sxmu
+.a_sxp
+.a_sxpb
+.a_xsfl
+.aab-post
+.aasd-text
+.aasdwa
+.ad-above-footer
+.ad-below-adjacent-post
+.ad-below-header-menu
+.ad-below-post-title
+.ad-below-related-post
+.ad-block-cn
+.ad-couplet-common
+.ad-left-down
+.ad-pc
+.ad-right-down
+.ad-right-top
+.ad-s2-card
+.ad-s3-block
+.ad-s4-block
+.ad-s5-block
+.ad-shine-panel
+.ad-site
+.ad.mi_btcon
+.ad250left
+.ad250right
+.ad300left
+.ad336left
+.ad990x130
+.ad990x90
+.adContainer[style="margin-top: -5px"]
+.adHF
+.adHF3
+.adHF6
+.ad_content_mask
+.ad_couplebanner
+.ad_footerbanner
+.ad_headerbanner
+.ad_hf
+.ad_pc
+.ad_right_1
+.ad_right_2
+.ad_thread
+.adbox-bg.adscounter
+.add-gg
+.addddddwarp
+.adlistcss
+.adpc
+.adpcc
+.adppc
+.adpvc
+.adpwc
+.ads > #video_playr_sider
+.ads > a > img[src*=".sinaimg."]
+.ads-after-content
+.ads-after-header
+.ads-all
+.ads-before-content
+.ads.flex
+.ads100
+.ads200
+.ads_all > .ads_w
+.ads_desktop
+.ads_mobile
+.ads_plugin
+.ads_topBanner
+.adsense160
+.adsense200
+.adsoho
+.adv-6park
+.adv-couplets
+.adv-g1
+.advInfoElem
+.advert-short
+.advertising_lightbox
+.afc_popup
+.alert_windows > .q-card__actions > a
+.anniversary-wrap-2018
+.apd-footer
+.apd-home
+.apd-right
+.app > .app_tj
+.appdownload_ad + .hider
+.appguide-wrap[onclick*="bcebos.com"]
+.archive > a[ontouchstart="this.click();"]
+.area > .tuiguang
+.art-layer-ad
+.artad
+.article-pop-up-ad
+.artplayer-plugin-ads
+.asb-index
+.asb-post
+.assort-ad
+.aub-post
+.ayx[style="display:block;"]
+.ayx[style^="position: fixed;bottom"]
+.b300 > .h100 > a[href^="http"]
+.b_oscar1
+.b_pr
+.b_sxc
+.b_sxp
+.b_sxp + .zxy
+.baiduad
+.banner-ad-section
+.banner-adv-new
+.banner-cctv-A2
+.banner-cctv-Topping
+.bdyp-sygg-ul
+.before_playing_cctv.yc
+.below_ads
+.bg > img[src*=".meituan.net"]
+.bhgg
+.bjxhf
+.bl > .gg
+.bm.a_c
+.bn728-100
+.bn728-93
+.book > #btmBox
+.bottomSponsor
+.bottom_fixed > #imgs_link4
+.bottom_mengcheng_ad_wrap
+.bottomads + .leftd
+.bottomd + .leftd
+.bottomd > .closebox2
+.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
+.broadcastMe[style="width: 1200px;"]
+.btn.btn-success.text-white[href*=".com:"]
+.bus_adsbox
+.callApp_fl_btn[onclick^="open_app"]
+.cari-ads
+.ceo_ads
+.cfa_popup
+.chat-ad
+.chat-right-ad
+.chat-sysbroadcast-ad
+.chat-top-ad
+.clearfix.col5.row > #listBox
+.col-md-10 > .banner-table-block
+.col5 > dl#randomBox
+.col6 > a[onclick*="横幅"]
+.comiis_ad
+.comiis_adbox
+.comiis_guanggao
+.comiis_guanggao_tit
+.common-topad
+.common_ad
+.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
+.con_section > .da
+.conch-ads-box
+.container + .container > .warp > .cate
+.container .t-img-box:first-child
+.container > #dhshtml
+.container > .index-ad
+.container > .slide-baidu
+.container > a[href^="http"] > .ads
+.containeradvertising
+.content > #dhxhtml
+.content > .dds_w
+.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
+.content > .myads
+.content > .small-icon-container > a.small-icon-div[target="_blank"]
+.content > a > .topline
+.content-video > .ads
+.content-video > .ads-player
+.content_ad_300
+.corner-gg
+.couplet_9cb0d
+.coupletad
+.ctm_ad
+.cui-pt-item[data-qhb]
+.d_banner_inner
+.dabc > .ng-star-inserted
+.dabf > .ng-star-inserted
+.davwheat-ad
+.ddd.ng-star-inserted
+.dipiao
+.downcode[style^="position:fixed;z-index:1000;top:200px;"]
+.dplayer > .tips
+.duilian > .leftd
+.ec-ad
+.ec-tutu
+.edtj
+.eis_muad
+.error > #qqs
+.event_fullscreen_gg_modal
+.f-sign-cont[data-dysign-adid]
+.fed-part-case > .ads-img
+.feed-item[data-ad]
+.ff-ads
+.fixed-bottom.jsv.jsv-g1
+.flex-row > #propagandaLeft
+.flex-row > #propagandaRight
+.float-adv-left-bottom
+.float-adv-left-top
+.float-adv-right-bottom
+.float-adv-right-top
+.float-left12 > .div-list
+.floatAd
+.float_bot_right
+.floating-ad
+.fnwehjnc12
+.frAd
+.frontpageAdvM
+.full.banners12
+.g1_wz > .g1_tp
+.getads
+.gg-box
+.gg-one
+.gg1000
+.gg430
+.gg_1
+.gg_2
+.gg_3
+.gg_300
+.gg_4
+.gg_5
+.gg_6
+.gg_728
+.gg_950
+.gg_960
+.gg_canvas
+.gg_full
+.gg_pc
+.gg_tp
+.ggad
+.gggpost-above
+.ggpost-below
+.ggtop
+.ggw
+.global_video_bottom_dbtc
+.google-ad2_fixed
+.google_adsense2
+.gotoclick[adv_id]
+.gpost-below
+.gpt_ads_box
+.gpt_ads_title
+.grid > .m0auto > div > .grid + div:not([class]):not([id])
+.guanggaoBox
+.guruin-ads
+.hao123-unionad-pic
+.hbp > .wp_banner
+.headxx11xiaoapp
+.heg > .div-list
+.heg > .partner-list
+.hidden-text + .ad-container
+.his-sign-cont[data-dysign-adid]
+.hlol_ad
+.home-qf > div[class*="img-ad"]
+.home-qf > div[class*="img-qf"]
+.homepage > .wp-none1
+.hongbao_hd
+.horizontal-banner
+.horizontal-banner + .post-content
+.hzxld
+.iHead960x90
+.ibtad
+.image-container > a[href*=".yangkeduo.com"]
+.imagegg-container
+.imgBox > div[class^="ad"]
+.index-top-aassd
+.index-top-ad
+.index-top-gg
+.index-wz-ad
+.index_alert_gg
+.indexad2
+.indexad3
+.indexad4
+.indexnews-ad
+.infomation + #notice_container > .event-notice
+.inner-advertise
+.it618_firstad_flex
+.itopbar + .container
+.jav-nav + .bcpic
+.jav-nav + .bcpic2
+.jingqun_tu
+.jq_infoflow_ad_wrap
+.jq_mediav_ad_report
+.jqrp_infoflow_ad
+.js-cui-pt-item[data-qhb]
+.jsv > .mobile-adv
+.jsv-layer > .image > a[href^="http"]
+.ka-flo
+.kjk-flo
+.ksads
+.kuandu > .bottommob
+.leftadv
+.leftd + .rightd
+.leo-container .ssr1
+.link > .image[src*=".qhimg.com/"]
+.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
+.listok > a > img[style^="width:980px;height:"]
+.loc-home-top-adv-new
+.lol-ad
+.lol_ad
+.look_more_a[onclick^="open_app"]
+.lyzm-prevent
+.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
+.m1938-container
+.m_hot_rec_box_base[id^="right"]
+.main-ad-l
+.main-ad-r
+.main-ad-r + .topad
+.main-container > #dhxhtml
+.main-container div[id^="core-zone-"]
+.main-container div[id^="z-extra-"]
+.main-container ~ div.z-gate-mask
+.main-container ~ div[class^="z"][class$="-root"]
+.main-content > .a2b3
+.main[style="border:#7D8C8E solid 1px;height: 23px;"]
+.mainbg > #s11navtop
+.maomi-content > #main-container > .row.mob40 + .row
+.maomi-content > .section-banner
+.maomi-content > .section-menu > .row > a[target="_blank"]
+.maomi-content > a[target="_blank"]
+.mbads
+.mediav-newsfeed-listitem-type-1
+.mediavAd_report
+.mediavfeed-newsitem
+.menutab_ad
+.ml_ad1
+.ml_ad3
+.ml_ad5
+.mlad
+.mobadsq
+.mod + #bottomBox
+.module-adslist
+.module-adslists
+.module-player > .dds_w
+.module-tglist > .tg-normal-box
+.module-ttlist.tt_w-2
+.module-yylist.tg_w
+.my-cat.my-cat-header
+.mylist + #topthree
+.mylist > a > img[width^="9"][height="80"]
+.myui-extra + .noticetext
+.nQIAj
+.nQIAj1
+.nav-ads
+.nav-area + .wrapper .tuiguang
+.newsAD
+.newstyle > .container > a[target="_blank"]
+.newstyle > a > img[src*="img.com/i/"]
+.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
+.nordvpn-popup + .sidebar-vpn
+.notice-ad-wrapper
+.notice-ad-wrapper + .app-abk
+.notice-ad-wrapper + .app-abk + .app-text
+.nr_all > .m_f_a.sw_sp
+.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
+.orbui-post
+.orbui-site
+.overBanner.dowloadBtn
+.page > .wp-none1
+.page-wwads
+.pagead_3
+.pagecon + .ad1
+.pasuAD
+.pause-ad
+.pc-ads
+.pccb > .ng-star-inserted
+.pcd_ad
+.pcgg
+.pggb > .ng-star-inserted
+.pggc > .ng-star-inserted
+.pggd > .ng-star-inserted
+.pggf > .ng-star-inserted
+.photo-two > a[onclick^="_czc."]
+.player + .sponsor
+.player-bottom-gg
+.player-box > .rm-two > a[target="_blank"]
+.player-box > [style*="flex; justify"]
+.player-box-main > .rm-one > a[start-time]
+.player-info > .recommend-two.recommend-list
+.player-news > .news-list
+.player-rm > a[href*="/ad.html?url="]
+.player-rm-float
+.player-rma > a[target="_blank"]
+.player-tl > a[target="_blank"]
+.player-tt-rm.rm-list
+.player-tt-rmm
+.player_ggw
+.playtop.col-pd
+.playtopad
+.plc > .a_p
+.pop.pop-bottom
+.pop[style="right: 10px;"]
+.popup + .shortcuts-m-overlay
+.postmessage > #googleFirst
+.postmessage > #googleSecond
+.privilege-promote
+.pro-molnk
+.pro1-molnk
+.prom-olnk
+.promlnk[style="position:relative;width:100%;height:100%;"]
+.propa_bottom
+.pure-g[onclick*="float"]
+.push-bottom-container[clickmode="cpt"]
+.push-slider[clickmode="cpt"]
+.push-top[clickmode="cpt"]
+.qpdb + a[href]
+.qzdhf
+.qzhfaaa
+.readerListADbox
+.readmidad
+.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
+.right > .content > .ads
+.ripro_gg_wrap
+.rm-twoa > a[href*=".umtrack.com"]
+.room-ad-bottom
+.room-ad-top
+.room-ad-video-down
+.rotate-adv
+.row > .gao-bg
+.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
+.rtcenter_game
+.samBannerUnit
+.scupioadslot
+.search + #midBox
+.self-gg
+.single-ad-banner
+.slider-ad[adid]
+.socialmedia > #middletextbanner
+.space-y-6 > .advertising
+.spon-img[src*=".alicdn."]
+.spot_nav_under_ad
+.static-a2d
+.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"]
+.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"] + .stui-vodlist__detail
+.svg-icon + #player_pause
+.sxAdBox
+.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
+.tab-content + .col-pd
+.textadlist
+.tg-m.tg-site
+.tg-pc.tg-site
+.theme_custom_slidebox-ad-below
+.title > .gg
+.tjtagmanager[data-ad_id]
+.tmall_ad_container
+.tmall_bg15
+.tooltip > #tp
+.top > a > .topline[src^="/photo/"]
+.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
+.top-gg
+.top-meta > .moj-content
+.top-read-ad
+.topSponsor
+.top_ad_ban
+.top_box > #foot
+.top_box > #indextop
+.top_box > #news
+.top_box > li > a[href^="/js/app.htm?"]
+.top_func_ad
+.topbanner + .nav + .banner
+.toy52_outer
+.toy52apparel_ALL
+.trad3
+.twavt-ads
+.txp_ad[data-role="txpad-interact-pause"]
+.txp_ad_center
+.txtguanggao
+.uk-width-1-1.adbox
+.vg-overlay-pause
+.video-ad-item
+.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+.video-info-aux + div[style^="border-radius: 5px;"]
+.video-item-ads
+.video-player > .gg-bg-cover
+.video_details > .banner
+.vodads
+.w-full > .banner.el-carousel
+.w100b > .m_adv
+.wbalist_thumb[style*="/upload/site/"]
+.wemziguanggao
+.wf_ad_block
+.widget-qianhuiji
+.widget-topadding
+.widget-xlxba
+.widget_adbox
+.widget_ui_asb
+.widget_ui_aub
+.widget_ui_textasb
+.widget_ui_textaub
+.wordurl[style="   width: 42%; float:left; text-align: center;"]
+.wp > .ad-box
+.wp.a2_h
+.wp.a_f
+.wp.a_h
+.wp_headline + .ad1
+.wpcom_ad_wrap
+.wrap + #btmBox
+.wrap + #midBox
+.wrap > #btmBox
+.wrap.mt10.clearfix > .box.top_box
+.wrapper > #asxv
+.wrapper > a[target="_blank"] > .ads
+.wumii-bottom-popup
+.wumii-widget-ad
+.wwads
+.wwads-cn
+.wzad
+.xstui-content__acc
+.xzad-list
+.xzbox-gh
+.y.mtw[style="padding: 0px 10px;"]
+.ya-normal-box-done
+.yalayi_box
+.yt-ad-com
+.yueduad1
+.zhanzhang_tuijian_btn
+.zhedangceng_ggg
+.zone_wap_banner2
+A[href*=".com/?Agent="]
+A[href="http://t.cn/A6hQCVsv"]
+A[href="javascript:;"][onclick^="lksdjfrefruise"]
+A[href^="/e/public/ClickAd?adid="]
+A[onclick^="diensfeifwejwdsfwemio"]
+IMG[onclick*="bucd.lol"]
+[class][onclick="window.location.href='/api/goapp/'"]
+[class][onclick="window.location.href='https://www.suyuexs.com'"]
+[class][onclick="window.location.href='https://www.tsqcy.cn'"]
+[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
+[class][onclick^="window.location.href"][onclick*=".bcebos."]
+[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
+[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
+[style*="mi-img.com"][style*="calc"]
+a#wrapper_left_bg
+a#wrapper_left_bg\ llll
+a#wrapper_right_bg
+a.hengfu > img.hengfu
+a[clickmode="ad"]
+a[clickmode="cpt"]
+a[data-ad_type="1"]
+a[href$=".cc:8443"]
+a[href$=".xyz:8443"]
+a[href$="/hjdt9.com"]
+a[href$="/xha77.com"]
+a[href*=".6666ai.top"]
+a[href*=".bright.cn/?utm_"]
+a[href*=".com/?Extend="]
+a[href*=".com/Register.aspx?aid="]
+a[href*=".com/Register/?a="]
+a[href*=".com/tg.html?id="]
+a[href*=".com?intr="]
+a[href*=".erodatalabs.com/"]
+a[href*=".gaimin.gg/cn"]
+a[href*=".hongguotuiguang."]
+a[href*=".jmtybc.com"]
+a[href*=".labsda.com"] > img[src^="/game/20"]
+a[href*=".ssmh"][href*="?u="]
+a[href*=".taobao.com"] > img[src*=".tucao."]
+a[href*=".xacg.info/"]
+a[href*=".xxmh"][href*="?u="]
+a[href*=".xyz:"] > img[src*=".qlogo.cn"]
+a[href*="/122.51.121.126:"]
+a[href*="/137.220.194.105:"]
+a[href*="/137.220.194.123:"]
+a[href*="/2e9c9aa9.com/"]
+a[href*="/33hth.cn"]
+a[href*="/445.ee/"]
+a[href*="/?INTR="]
+a[href*="/?Intr="]
+a[href*="/?aff="][target="_blank"]
+a[href*="/?intr="]
+a[href*="/PageRegister?Agent="][target="_blank"]
+a[href*="/Register?a="]
+a[href*="/ads/adscenter."]
+a[href*="/auth/register?code="] > img
+a[href*="/d27.tv"]
+a[href*="/entry/register"][href*="i_code"]
+a[href*="/h91.tv"]
+a[href*="/kt169.com"]
+a[href*="/l1y9.com"]
+a[href*="/lesi151.cc"]
+a[href*="/lesi198.com"]
+a[href*="/mobads.php?"]
+a[href*="/register/?i_code="] > img
+a[href*="/uu5566.cn.com/"]
+a[href*="/vv88.life"]
+a[href*="/yfj8159.com"]
+a[href*="/yigeyuming3880.top"]
+a[href*="://2"] > img[src*=".qlogo.cn"]
+a[href*="://4"][href*="/vod."]
+a[href*="://mgzs.cdn.bcebos.com/"]
+a[href*=":10443/"] > img[src$="gif"]
+a[href*=":7888/?register="]
+a[href*=":8701/?register="]
+a[href*="?channelCode="] > img[src*=".xyz"]
+a[href*="?invite_code="] > img[src*=".com"]
+a[href*="?register="] > img[src*=".douyinpic.com"]
+a[href*="?register="] > img[width="100%"]
+a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
+a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
+a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
+a[href*="kdocs.cn"] > img[src*="sstv."]
+a[href*="xchina.click/prepare."]
+a[href="/e/member/register/index.php?tobind=0&groupid=1"]
+a[href="/gghtml/tyc.html"]
+a[href="/goto.php?url=hth"]
+a[href="/ht.html"]
+a[href="/iwagbwfiwehaeyh"]
+a[href="http://yun886.com"]
+a[href="https://t.me/bokaiyunwujiankaiyun"]
+a[href="javascript:GoGd();"]
+a[href="javascript:GoTp();"]
+a[href="javascript:window.GoTp();"]
+a[href^="/ad/"] > img[id][src*="hdslb.com"]
+a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
+a[href^="/dasp.php?a="]
+a[href^="/hy-"][ontouchstart]
+a[href^="/template/1/html/ad/"]
+a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
+a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
+a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
+a[href^="http://ad.moemoe."]
+a[href^="http://yunbofangbt."]
+a[href^="https://adm.beimg.com/"]
+a[href^="https://l.erodalabs.com"]
+a[href^="java"][onclick^="gogogoto"]
+a[href^="javascript:GoDb"]
+a[href^="javascript:gl012"]
+a[href^="javascript:gl012"] + img
+a[id][href*="/?aff="]
+a[id][href*="/?register="]
+a[onclick$="'clicked', 'ad');"]
+a[onclick*="/dasp.php?a="]
+a[onclick*="open"] > img[src*=".dailygn.com/"]
+a[onclick^="_czc."] > .add
+a[onclick^="_czc."] > .ads
+a[onclick^="_czc.push(['_trackEvent', '广告"]
+a[onclick^="gtag"] > .add
+a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
+a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
+a[target="_blank"] > img.king
+a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
+a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
+a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
+a[target="_blank"][onclick*="广告点击"]
+body .has-ad
+body > .app + #htmlContenthtml
+body > .dbfh
+body > .zdhf
+body > div#inplayer[align="center"]
+body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
+body > div[style$=";background: #000;opacity:0.01;"]
+body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
+body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
+body[onload*="u()"] > #x
+body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
+body[ontouchstart] > #topBox
+body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
+body[ontouchstart] > div[id^="content_"][style="display: block;"]
+button[onclick*=".xacg.info/"]
+center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
+center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
+center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+div#ad_id
+div#xinxi
+div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
+div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
+div[bannerlist]
+div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
+div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
+div[class^="ps_"][value="20"]
+div[id^="a-loading-"] > span
+div[id^="ad_thread"]
+div[id^="adv-"].adv
+div[id^="em"] > a[onclick^="em"][max-width]
+div[id^="photo-header-title-content-text-dall"]
+div[onclick*=".open"][onclick*="leyu"]
+div[onclick*="/ky"][onclick*="open"]
+div[onclick*="?i_code="]
+div[onclick^="window.location.href"][onclick*=".bcebos."]
+div[role="listitem"] .bannerliststyle
+div[style="margin:10px auto;width: 930px;height: 250px;"]
+div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
+div[style^="line-height"][style*="http"][style$="fixed;"]
+div[style^="position"][onclick^="window.open"]
+div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
+dl#listwoBox
+header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
+header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
+header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
+iframe[src*=".xxmh"][src*="?u="]
+img#GGADIMG
+img#adv1
+img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
+img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
+img[onclick*=".qq.com/doc/"]
+img[onclick*="/2e9c9aa9.com"]
+img[onclick*="/statics/js/"]
+img[onclick="window.open(this.url)"][src*="qq.com"]
+img[onclick^="window.open"][src*=".360buyimg.com"]
+img[onclick^="window.open"][src*="pc.qq.com"]
+img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
+img[src$="/img/tianbo.gif"]
+img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
+img[src*=".jd.com"][style="width:100%;height:70px;"]
+img[src*=".meituan.net"][style="width:100%;height:70px;"]
+img[src*=".meiyida.tv/"]
+img[src*=".qpic.cn"][width="980"][height="80"]
+img[src*=".sinaimg."][style="width:1025px;height:80px"]
+img[src*=".sinaimg."][style="width:150px;height:300px"]
+script + #coupletBox
+script + #rbbox
+script + .dbfh
+script + .header_rmb
+script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
+script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+script[src$="/base.js"] + #couplet
+script[src="/js/sy2.js"] + div[align="center"]
+span[title="neteasefooter"]
+style + .a-loading
+style + .need_grid_img
+style + .topd
+style + .topd + .bottomd
+style + .vdgdo
+table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+td[id^="td_"] > a[href^="/htmm/"]
+vg-pause-ads
+vg-pause-f

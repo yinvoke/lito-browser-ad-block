@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "adguard_dns",
+      "name": "AdGuard DNS filter",
+      "file": "adguard-dns.txt",
+      "layer": "network",
+      "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "homepage": "https://github.com/AdguardTeam/AdGuardSDNSFilter",
+      "license": "GPL-3.0",
+      "license_url": "https://github.com/AdguardTeam/AdGuardSDNSFilter/blob/master/LICENSE",
+      "min_bytes": 2097152,
+      "max_bytes": 16777216,
+      "max_age_hours": 72
+    },
+    {
+      "id": "hagezi_pro",
+      "name": "HaGeZi Multi Pro",
+      "file": "hagezi-pro-dns.txt",
+      "layer": "network",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+      "homepage": "https://github.com/hagezi/dns-blocklists",
+      "license": "GPL-3.0",
+      "license_url": "https://github.com/hagezi/dns-blocklists/blob/main/LICENSE",
+      "min_bytes": 3145728,
+      "max_bytes": 25165824,
+      "max_age_hours": 48
+    },
+    {
+      "id": "hagezi_tif",
+      "name": "HaGeZi TIF Mini",
+      "file": "hagezi-tif-dns.txt",
+      "layer": "network",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.mini.txt",
+      "homepage": "https://github.com/hagezi/dns-blocklists",
+      "license": "GPL-3.0",
+      "license_url": "https://github.com/hagezi/dns-blocklists/blob/main/LICENSE",
+      "min_bytes": 2097152,
+      "max_bytes": 16777216,
+      "max_age_hours": 36
+    },
+    {
+      "id": "antiad",
+      "name": "anti-AD",
+      "file": "anti-ad-dns.txt",
+      "layer": "network",
+      "url": "https://anti-ad.net/domains.txt",
+      "homepage": "https://github.com/privacy-protection-tools/anti-AD",
+      "license": "MIT",
+      "license_url": "https://github.com/privacy-protection-tools/anti-AD/blob/master/LICENSE",
+      "min_bytes": 1048576,
+      "max_bytes": 16777216,
+      "max_age_hours": 96
+    },
+    {
+      "id": "adguard_cn",
+      "name": "AdGuard Chinese filter",
+      "file": "adguard-chinese.txt",
+      "layer": "cosmetic",
+      "url": "https://filters.adtidy.org/extension/ublock/filters/224.txt",
+      "homepage": "https://github.com/AdguardTeam/AdguardFilters",
+      "license": "GPL-3.0; includes EasyList China content under its upstream terms",
+      "license_url": "https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE",
+      "min_bytes": 393216,
+      "max_bytes": 8388608,
+      "max_age_hours": 168
+    }
+  ]
+}
