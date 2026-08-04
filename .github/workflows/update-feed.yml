@@ -67,9 +67,11 @@ jobs:
       - name: Publish release files
         run: |
           python3 tools/validate_snapshot.py build/artifact/release
+          install -m 0644 public/v1/index.html build/artifact/v1-index.html
           rm -rf public/v1
           mkdir -p public/v1 status
           install -m 0644 build/artifact/release/* public/v1/
+          install -m 0644 build/artifact/v1-index.html public/v1/index.html
           install -m 0644 build/artifact/status/latest.json status/latest.json
           python3 tools/validate_snapshot.py public/v1
 

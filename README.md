@@ -1,6 +1,10 @@
 # Lito Browser Ad Block
 
-Lito Browser 的广告拦截规则上游项目。定期同步第三方规则，并编译为 Lito 可直接加载的紧凑规则。
+[![许可证](https://img.shields.io/github/license/yinvoke/lito-browser-ad-block?label=%E8%AE%B8%E5%8F%AF%E8%AF%81&style=flat-square)](LICENSE)
+
+Lito Browser 的广告拦截规则上游。同步第三方规则，经过编译和校验后发布至 GitHub Pages。
+
+[项目官网](https://yinvoke.github.io/lito-browser-ad-block/) · [发布清单](https://yinvoke.github.io/lito-browser-ad-block/v1/manifest.txt)
 
 ## 订阅地址
 
@@ -18,11 +22,7 @@ https://yinvoke.github.io/lito-browser-ad-block/v1/
 | 网络 | anti-AD | `domains.txt` | 中文互联网广告域名补充 |
 | 元素隐藏 | AdGuard Chinese | uBlock 格式 `224.txt` | 中文网页元素隐藏与路径例外 |
 
-完整的上游地址和许可证信息见 [`sources.json`](sources.json) 与 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
-
-## 发布内容
-
-编译后的域名规则、网络例外、元素隐藏规则、来源信息及版本文件位于 [`public/v1`](public/v1)。Lito 通过 HTTPS 下载，并按发布清单校验版本、长度和 SHA-256 后热更新当前规则。
+完整地址和许可证信息见 [`sources.json`](sources.json) 与 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
 ## 许可证
 
