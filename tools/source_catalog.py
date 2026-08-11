@@ -24,6 +24,8 @@ class Source:
     min_bytes: int
     max_bytes: int
     max_age_hours: int
+    # 只用于头部没有时区的时间戳；带 Z/+08:00 的 ISO 时间不受影响。
+    timestamp_utc_offset_minutes: int = 0
 
     @property
     def network(self) -> bool:
@@ -59,6 +61,8 @@ def load_catalog(path: pathlib.Path | None = None) -> list[Source]:
             raise ValueError(f"bad source size limits: {source.id}")
         if source.max_age_hours < 1:
             raise ValueError(f"bad source freshness limit: {source.id}")
+        if not -14 * 60 <= source.timestamp_utc_offset_minutes <= 14 * 60:
+            raise ValueError(f"bad source timestamp offset: {source.id}")
     return sources
 
 
@@ -68,8 +72,12 @@ MONTHS = {name: index for index, name in enumerate(
 )}
 
 
-def parse_source_updated(path: pathlib.Path) -> dt.datetime | None:
-    """从常见过滤规则头部读取 UTC 更新时间。"""
+def parse_source_updated(
+    path: pathlib.Path,
+    timestamp_utc_offset_minutes: int = 0,
+) -> dt.datetime | None:
+    """从常见过滤规则头部读取更新时间，并统一转换为 UTC。"""
+    source_timezone = dt.timezone(dt.timedelta(minutes=timestamp_utc_offset_minutes))
     text = path.read_bytes()[:131072].decode("utf-8", errors="replace")
     for line in text.splitlines()[:80]:
         iso = re.search(
@@ -82,31 +90,34 @@ def parse_source_updated(path: pathlib.Path) -> dt.datetime | None:
             value = iso.group(1).replace("Z", "+00:00")
             parsed = dt.datetime.fromisoformat(value)
             if parsed.tzinfo is None:
-                parsed = parsed.replace(tzinfo=dt.timezone.utc)
+                parsed = parsed.replace(tzinfo=source_timezone)
             return parsed.astimezone(dt.timezone.utc)
 
         english = re.search(
             r"Last modified\s*[:=]\s*(\d{1,2})\s+([A-Za-z]{3})\s+(20\d{2})"
-            r"(?:\s+(\d{1,2}):(\d{2}))?",
+            r"(?:\s+(\d{1,2}):(\d{2}))?(?:\s+(UTC|GMT))?",
             line,
             re.I,
         )
         if english and english.group(2).lower() in MONTHS:
+            english_timezone = dt.timezone.utc if english.group(6) else source_timezone
             return dt.datetime(
                 int(english.group(3)), MONTHS[english.group(2).lower()], int(english.group(1)),
-                int(english.group(4) or 0), int(english.group(5) or 0), tzinfo=dt.timezone.utc,
-            )
+                int(english.group(4) or 0), int(english.group(5) or 0), tzinfo=english_timezone,
+            ).astimezone(dt.timezone.utc)
 
         compact = re.search(r"^[#!]\s*(?:VER|Version)\s*[:=]\s*(20\d{12})", line, re.I)
         if compact:
-            return dt.datetime.strptime(compact.group(1), "%Y%m%d%H%M%S").replace(tzinfo=dt.timezone.utc)
+            return dt.datetime.strptime(compact.group(1), "%Y%m%d%H%M%S").replace(
+                tzinfo=source_timezone,
+            ).astimezone(dt.timezone.utc)
     return None
 
 
 def metadata_dates(raw_dir: pathlib.Path, sources: Iterable[Source]) -> dict[str, str]:
     result: dict[str, str] = {}
     for source in sources:
-        updated = parse_source_updated(raw_dir / source.file)
+        updated = parse_source_updated(raw_dir / source.file, source.timestamp_utc_offset_minutes)
         if updated is not None:
             result[source.id] = updated.strftime("%Y-%m-%d")
     return result

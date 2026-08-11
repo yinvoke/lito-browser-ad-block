@@ -44,14 +44,16 @@ def main() -> None:
         for source in sources:
             destination = stage / source.file
             print(f"fetch {source.id}: {source.url}")
-            subprocess.run(
+            result = subprocess.run(
                 [
                     "curl", "--fail", "--silent", "--show-error", "--location",
                     "--retry", "3", "--retry-all-errors", "--connect-timeout", "20",
                     "--max-time", "180", "--output", str(destination), source.url,
                 ],
-                check=True,
+                check=False,
             )
+            if result.returncode != 0:
+                fail(f"{source.id} download failed after retries: {source.url}")
             size = destination.stat().st_size
             if not source.min_bytes <= size <= source.max_bytes:
                 fail(
@@ -61,7 +63,7 @@ def main() -> None:
             prefix = destination.read_bytes()[:512].lstrip().lower()
             if prefix.startswith((b"<!doctype html", b"<html")):
                 fail(f"{source.id} returned HTML instead of a filter list")
-            updated = parse_source_updated(destination)
+            updated = parse_source_updated(destination, source.timestamp_utc_offset_minutes)
             if updated is None:
                 fail(f"{source.id} has no recognized upstream timestamp")
             age_hours = (now - updated).total_seconds() / 3600
