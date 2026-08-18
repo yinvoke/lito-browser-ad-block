@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "version": "202608171943",
-  "generated_at": "2026-08-17T19:43:08.481225Z",
+  "version": "202608181941",
+  "generated_at": "2026-08-18T19:41:14.601481Z",
   "repository": "yinvoke/lito-browser-ad-block",
-  "commit": "6159984eb8a6aaebec2889d840074c424d79a883",
-  "workflow_run": "https://github.com/yinvoke/lito-browser-ad-block/actions/runs/32061879199",
+  "commit": "72de23c32d0cd3e0fed1f84c445aa13caee655a5",
+  "workflow_run": "https://github.com/yinvoke/lito-browser-ad-block/actions/runs/32177990911",
   "counts": {
-    "domains_before_parent_prune": 477388,
-    "domains": 460205,
+    "domains_before_parent_prune": 479671,
+    "domains": 462288,
     "network_exceptions": 323,
     "cosmetic_generic": 1029,
     "cosmetic_specific_hosts": 2953,
-    "cosmetic_specific_rules": 8877
+    "cosmetic_specific_rules": 8879
   },
   "sources": {
     "adguard_cn": {
-      "updated_at": "2026-08-17T17:11:45Z",
-      "bytes": 769721,
-      "sha256": "76dbbf30ad9ad52c70aa36ce5066f9ac636113fc630599c5eaea72ae481c867c"
+      "updated_at": "2026-08-18T15:12:07Z",
+      "bytes": 770118,
+      "sha256": "5dce6237abbd5b35d445847511329f4890341689635b01427fedb69cdc451cb4"
     },
     "adguard_dns": {
-      "updated_at": "2026-08-17T18:10:29.210000Z",
-      "bytes": 4286094,
-      "sha256": "249f6df050ff8c44a5533b9d962c8dd8079245aa0ba6d6618de7c97f7ea56b08"
+      "updated_at": "2026-08-18T18:10:04.297000Z",
+      "bytes": 4292578,
+      "sha256": "5f55a5b8537b94a0fd38dff641805e94b1dd6aedcc1c3da16cf0331d2fc69731"
     },
     "antiad": {
       "updated_at": "2026-08-16T18:52:45Z",
@@ -30,14 +30,14 @@
       "sha256": "0fb5a099a2dc4f70a831c02d0c7aaa44c38018e7d3178ae4f4928920921ce846"
     },
     "hagezi_pro": {
-      "updated_at": "2026-08-17T08:07:00Z",
-      "bytes": 4782216,
-      "sha256": "dc0a65746179fd7ac8f01c7d353f4e4ebb9541ed06565cec62008c65011de32e"
+      "updated_at": "2026-08-18T08:09:00Z",
+      "bytes": 4867089,
+      "sha256": "cb4e8c6cf25609fd9032e261cc2a1d32640c567865a2b4aaa21f3e9e2707d648"
     },
     "hagezi_tif": {
-      "updated_at": "2026-08-17T07:43:00Z",
-      "bytes": 3606001,
-      "sha256": "96c44e53ac3c145ac160361c67517a9ca0b414042659886d4557248f0d58a4c8"
+      "updated_at": "2026-08-18T07:45:00Z",
+      "bytes": 3627189,
+      "sha256": "422737a4ea5dc67db79e76a903fa934fc2a8e241c6b64f86fac53771d932b33c"
     }
   }
 }
