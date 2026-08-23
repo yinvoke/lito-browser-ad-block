@@ -666,6 +666,7 @@
 .pccb > .ng-star-inserted
 .pcd_ad
 .pcgg
+.pg-body > div[class^="gg_"]
 .pggb > .ng-star-inserted
 .pggc > .ng-star-inserted
 .pggd > .ng-star-inserted
