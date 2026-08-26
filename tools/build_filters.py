@@ -58,6 +58,7 @@ def main() -> None:
         raise SystemExit(f"missing source files: {', '.join(missing)}")
 
     domains: set[str] = set()
+    privacy_domains: set[str] = set()
     network_exceptions: set[str] = set()
     generic: set[str] = set()
     specific: dict[str, set[str]] = {}
@@ -79,6 +80,10 @@ def main() -> None:
                 if any(marker in line for marker in ("##", "#@#", "#?#", "#$#", "#%#")):
                     if any(marker in line for marker in ("#@#", "#?#", "#$#", "#%#")):
                         continue
+                    # 隐私源(EasyPrivacy)的零星元素隐藏规则不并入 cosmetic:
+                    # 端上隐私拦截只做网络层,隐藏规则混入会让归因口径漂移。
+                    if source.privacy:
+                        continue
                     left, _, selector = line.partition("##")
                     selector = selector.strip()
                     if not selector or is_proc(selector) or "+js" in selector or selector.startswith("^"):
@@ -88,34 +93,44 @@ def main() -> None:
                     else:
                         add_specific(specific, left, selector)
                     continue
-                if not source.network:
+                if source.network:
+                    target = domains
+                elif source.privacy:
+                    target = privacy_domains
+                else:
                     continue
                 match = DOMAIN_RE.match(line)
                 if match:
                     domain = match.group(1).lower().strip(".")
                     if "*" not in domain and "." in domain:
-                        domains.add(domain)
+                        target.add(domain)
                     continue
                 match = HOSTS_RE.match(line)
                 if match:
                     domain = match.group(1).lower().strip(".")
                     if domain != "localhost" and "." in domain:
-                        domains.add(domain)
+                        target.add(domain)
                     continue
                 match = BARE_RE.match(line)
                 if match:
-                    domains.add(match.group(1).lower().strip("."))
+                    target.add(match.group(1).lower().strip("."))
+
+    def prune_parents(pool: set[str]) -> set[str]:
+        return {
+            domain for domain in pool
+            if not any(
+                ".".join(domain.split(".")[index:]) in pool
+                for index in range(1, domain.count(".") + 1)
+            )
+        }
 
     before_prune = len(domains)
-    domains = {
-        domain for domain in domains
-        if not any(
-            ".".join(domain.split(".")[index:]) in domains
-            for index in range(1, domain.count(".") + 1)
-        )
-    }
+    domains = prune_parents(domains)
+    privacy_before_prune = len(privacy_domains)
+    privacy_domains = prune_parents(privacy_domains)
     output.mkdir(parents=True, exist_ok=True)
     write_text(output / "adblock_domains.txt", "\n".join(sorted(domains)))
+    write_text(output / "privacy_domains.txt", "\n".join(sorted(privacy_domains)))
     write_text(output / "network_exceptions.txt", "\n".join(sorted(network_exceptions)))
     write_text(output / "cosmetic_generic.txt", "\n".join(sorted(generic)))
     normalized_specific = {host: sorted(selectors) for host, selectors in specific.items()}
@@ -144,6 +159,8 @@ def main() -> None:
         "counts": {
             "domains_before_parent_prune": before_prune,
             "domains": len(domains),
+            "privacy_domains_before_parent_prune": privacy_before_prune,
+            "privacy_domains": len(privacy_domains),
             "network_exceptions": len(network_exceptions),
             "cosmetic_generic": len(generic),
             "cosmetic_specific_hosts": len(normalized_specific),
@@ -158,9 +175,11 @@ def main() -> None:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"parent-pruned    : {before_prune:>7} -> {len(domains)}")
+    print(f"privacy pruned   : {privacy_before_prune:>7} -> {len(privacy_domains)}")
     print(f"sources          : {source_dates}")
     print(f"version          : {version}")
     print(f"domains          : {len(domains):>7}")
+    print(f"privacy domains  : {len(privacy_domains):>7}")
     print(f"network except   : {len(network_exceptions):>7}  path prefixes")
     print(f"cosmetic generic : {len(generic):>7}  selectors")
     print(f"cosmetic specific: {len(normalized_specific):>7}  hosts / {specific_rules} rules")

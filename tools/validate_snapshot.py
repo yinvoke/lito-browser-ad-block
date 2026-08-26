@@ -14,17 +14,22 @@ from source_catalog import default_catalog, load_catalog
 
 FILES = (
     "adblock_domains.txt",
+    "privacy_domains.txt",
     "network_exceptions.txt",
     "cosmetic_generic.txt",
     "cosmetic_specific.json",
     "sources.json",
     "version.txt",
 )
+# v1 兼容视图:老 APK 的 FilterSnapshot 按旧六文件集做严格校验,多一个文件都会整包拒收。
+# write_legacy_release.py 据此生成 public/v1;新文件只进 public/v2。
+LEGACY_FILES = tuple(name for name in FILES if name != "privacy_domains.txt")
 MANIFEST = "manifest.txt"
 MANIFEST_HEADER = "LITO-FILTER-MANIFEST-2"
 MANIFEST_LIMIT = 64 << 10
 FILE_LIMITS = {
     "adblock_domains.txt": 16 << 20,
+    "privacy_domains.txt": 8 << 20,
     "network_exceptions.txt": 2 << 20,
     "cosmetic_generic.txt": 8 << 20,
     "cosmetic_specific.json": 16 << 20,
@@ -38,9 +43,9 @@ def fail(message: str) -> None:
     raise ValueError(message)
 
 
-def canonical_manifest(root: pathlib.Path, version: str) -> bytes:
+def canonical_manifest(root: pathlib.Path, version: str, files: tuple[str, ...] = FILES) -> bytes:
     lines = [MANIFEST_HEADER, f"version={version}"]
-    for name in FILES:
+    for name in files:
         path = root / name
         lines.append(
             f"file\t{name}\t{path.stat().st_size}\t{hashlib.sha256(path.read_bytes()).hexdigest()}"
@@ -48,8 +53,8 @@ def canonical_manifest(root: pathlib.Path, version: str) -> bytes:
     return ("\n".join(lines) + "\n").encode("utf-8")
 
 
-def write_manifest(root: pathlib.Path, version: str) -> None:
-    (root / MANIFEST).write_bytes(canonical_manifest(root, version))
+def write_manifest(root: pathlib.Path, version: str, files: tuple[str, ...] = FILES) -> None:
+    (root / MANIFEST).write_bytes(canonical_manifest(root, version, files))
 
 
 def sorted_unique_lines(path: pathlib.Path) -> list[str]:
@@ -61,11 +66,14 @@ def sorted_unique_lines(path: pathlib.Path) -> list[str]:
     return lines
 
 
-def validate(root: pathlib.Path, catalog: pathlib.Path | None = None) -> dict[str, int | str]:
+def validate(
+    root: pathlib.Path, catalog: pathlib.Path | None = None, legacy: bool = False,
+) -> dict[str, int | str]:
+    files = LEGACY_FILES if legacy else FILES
     root = root.resolve()
     if not root.is_dir():
         fail(f"snapshot directory missing: {root}")
-    for name in FILES:
+    for name in files:
         path = root / name
         if not path.is_file():
             fail(f"missing snapshot file: {name}")
@@ -79,12 +87,17 @@ def validate(root: pathlib.Path, catalog: pathlib.Path | None = None) -> dict[st
     manifest = root / MANIFEST
     if not manifest.is_file() or not 1 <= manifest.stat().st_size <= MANIFEST_LIMIT:
         fail("manifest.txt is missing or outside size limit")
-    if manifest.read_bytes() != canonical_manifest(root, version):
+    if manifest.read_bytes() != canonical_manifest(root, version, files):
         fail("manifest.txt does not exactly describe the snapshot")
 
     domains = sorted_unique_lines(root / "adblock_domains.txt")
     if any(not DOMAIN_RE.fullmatch(domain) for domain in domains):
         fail("adblock_domains.txt contains an invalid domain")
+    privacy: list[str] = []
+    if not legacy:
+        privacy = sorted_unique_lines(root / "privacy_domains.txt")
+        if any(not DOMAIN_RE.fullmatch(domain) for domain in privacy):
+            fail("privacy_domains.txt contains an invalid domain")
     exceptions = sorted_unique_lines(root / "network_exceptions.txt")
     generic = sorted_unique_lines(root / "cosmetic_generic.txt")
 
@@ -125,6 +138,9 @@ def validate(root: pathlib.Path, catalog: pathlib.Path | None = None) -> dict[st
         "cosmetic_specific_hosts": 500,
         "cosmetic_specific_rules": 1_000,
     }
+    if not legacy:
+        counts["privacy_domains"] = len(privacy)
+        floors["privacy_domains"] = 2_000
     for key, minimum in floors.items():
         if int(counts[key]) < minimum:
             fail(f"snapshot below safety floor: {key}={counts[key]}, minimum={minimum}")
@@ -135,9 +151,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("snapshot", type=pathlib.Path)
     parser.add_argument("--catalog", type=pathlib.Path, default=default_catalog())
+    parser.add_argument("--legacy", action="store_true",
+                        help="按 v1 兼容视图(无 privacy_domains.txt 的旧六文件集)校验")
     args = parser.parse_args()
     try:
-        counts = validate(args.snapshot, args.catalog)
+        counts = validate(args.snapshot, args.catalog, legacy=args.legacy)
     except (OSError, ValueError, json.JSONDecodeError) as error:
         raise SystemExit(str(error)) from error
     print(json.dumps(counts, ensure_ascii=False, sort_keys=True))

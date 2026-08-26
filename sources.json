@@ -55,6 +55,19 @@
       "max_age_hours": 96
     },
     {
+      "id": "easyprivacy",
+      "name": "EasyPrivacy",
+      "file": "easyprivacy.txt",
+      "layer": "privacy",
+      "url": "https://easylist.to/easylist/easyprivacy.txt",
+      "homepage": "https://easylist.to/",
+      "license": "GPL-3.0 / CC BY-SA 3.0 (dual)",
+      "license_url": "https://easylist.to/pages/licence.html",
+      "min_bytes": 524288,
+      "max_bytes": 8388608,
+      "max_age_hours": 168
+    },
+    {
       "id": "adguard_cn",
       "name": "AdGuard Chinese filter",
       "file": "adguard-chinese.txt",

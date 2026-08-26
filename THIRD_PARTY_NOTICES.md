@@ -8,6 +8,7 @@ Lito 的发布快照是对多个上游过滤规则进行格式解析、去重和
 | [HaGeZi DNS Blocklists](https://gitlab.com/hagezi/mirror) | Multi Pro 与 TIF Mini | [GPL-3.0](https://gitlab.com/hagezi/mirror/-/blob/main/LICENSE) |
 | [anti-AD](https://github.com/privacy-protection-tools/anti-AD) | `domains.txt` | [MIT](https://github.com/privacy-protection-tools/anti-AD/blob/master/LICENSE) |
 | [AdGuard Filters](https://github.com/AdguardTeam/AdguardFilters) | AdGuard Chinese filter (`224.txt`) | [GPL-3.0](https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE) |
+| [EasyPrivacy](https://easylist.to/) | 隐私保护域名表(`privacy_domains.txt`,仅 v2) | [GPL-3.0 / CC BY-SA 3.0 双许可](https://easylist.to/pages/licence.html) |
 | [EasyList / EasyList China](https://easylist.to/) | 由 AdGuard Chinese 的官方发布文件间接包含；本项目不再单独抓取 | [EasyList licence](https://easylist.to/pages/licence.html) |
 | [乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule) | 未纳入公开发布 | 上游未提供可识别的许可证 |
 

@@ -71,18 +71,22 @@ jobs:
         run: |
           python3 tools/validate_snapshot.py build/artifact/release
           install -m 0644 public/v1/index.html build/artifact/v1-index.html
-          rm -rf public/v1
-          mkdir -p public/v1 status
-          install -m 0644 build/artifact/release/* public/v1/
+          install -m 0644 public/v2/index.html build/artifact/v2-index.html
+          rm -rf public/v1 public/v2
+          mkdir -p public/v1 public/v2 status
+          install -m 0644 build/artifact/release/* public/v2/
+          python3 tools/write_legacy_release.py public/v2 public/v1
           install -m 0644 build/artifact/v1-index.html public/v1/index.html
+          install -m 0644 build/artifact/v2-index.html public/v2/index.html
           install -m 0644 build/artifact/status/latest.json status/latest.json
-          python3 tools/validate_snapshot.py public/v1
+          python3 tools/validate_snapshot.py public/v2
+          python3 tools/validate_snapshot.py --legacy public/v1
 
       - name: Record release
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- public/v1 status/latest.json
+          git add -- public/v1 public/v2 status/latest.json
           git commit -m "规则:发布每日更新"
           git push origin HEAD:main
 

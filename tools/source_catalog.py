@@ -31,6 +31,10 @@ class Source:
     def network(self) -> bool:
         return self.layer == "network"
 
+    @property
+    def privacy(self) -> bool:
+        return self.layer == "privacy"
+
 
 def default_catalog() -> pathlib.Path:
     return pathlib.Path(__file__).resolve().parent.parent / "sources.json"
@@ -53,7 +57,7 @@ def load_catalog(path: pathlib.Path | None = None) -> list[Source]:
             raise ValueError(f"unsafe source id: {source.id}")
         if not re.fullmatch(r"[a-z0-9][a-z0-9._-]*\.txt", source.file):
             raise ValueError(f"unsafe source filename: {source.file}")
-        if source.layer not in {"network", "cosmetic"}:
+        if source.layer not in {"network", "cosmetic", "privacy"}:
             raise ValueError(f"bad source layer: {source.id}")
         if not source.url.startswith("https://"):
             raise ValueError(f"source URL must use HTTPS: {source.id}")
