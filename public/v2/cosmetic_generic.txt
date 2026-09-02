@@ -15,7 +15,7 @@
 #\31 x1_container.float-banner-footer
 #__ads_dp
 #__long_gg_container
-#__nuxt > div > .footer
+#__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 #aafoot.top_box
 #aafoot[class^="top_box"]
 #aaheadtop
@@ -776,6 +776,7 @@
 .video-info-aux + div[style^="border-radius: 5px;"]
 .video-item-ads
 .video-player > .gg-bg-cover
+.videoPlayContainer > div#video-play + div[data-nosnippet]
 .video_details > .banner
 .vodads
 .w-full > .banner.el-carousel
@@ -993,6 +994,7 @@ dl#listwoBox
 header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
+html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
 iframe[src*=".xxmh"][src*="?u="]
 img#GGADIMG
 img#adv1
