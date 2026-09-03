@@ -15,7 +15,6 @@
 #\31 x1_container.float-banner-footer
 #__ads_dp
 #__long_gg_container
-#__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 #aafoot.top_box
 #aafoot[class^="top_box"]
 #aaheadtop
@@ -125,7 +124,6 @@
 #guanggao2[style^="position"]
 #gudingweiDiv
 #haoxinqing_me_img
-#header + #topBox
 #header-top + .advertisement
 #header_global_ad
 #hellobox > .mylist
@@ -413,7 +411,6 @@
 .banner-cctv-A2
 .banner-cctv-Topping
 .bdyp-sygg-ul
-.before_playing_cctv.yc
 .below_ads
 .bg > img[src*=".meituan.net"]
 .bhgg
@@ -422,7 +419,6 @@
 .bm.a_c
 .bn728-100
 .bn728-93
-.book > #btmBox
 .bottomSponsor
 .bottom_fixed > #imgs_link4
 .bottom_mengcheng_ad_wrap
@@ -441,9 +437,7 @@
 .chat-right-ad
 .chat-sysbroadcast-ad
 .chat-top-ad
-.clearfix.col5.row > #listBox
 .col-md-10 > .banner-table-block
-.col5 > dl#randomBox
 .col6 > a[onclick*="横幅"]
 .comiis_ad
 .comiis_adbox
@@ -546,7 +540,6 @@
 .guruin-ads
 .hao123-unionad-pic
 .hbp > .wp_banner
-.headxx11xiaoapp
 .heg > .div-list
 .heg > .partner-list
 .hidden-text + .ad-container
@@ -725,7 +718,6 @@
 .rtcenter_game
 .samBannerUnit
 .scupioadslot
-.search + #midBox
 .self-gg
 .single-ad-banner
 .slider-ad[adid]
@@ -750,16 +742,11 @@
 .tmall_bg15
 .tooltip > #tp
 .top > a > .topline[src^="/photo/"]
-.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
 .top-gg
 .top-meta > .moj-content
 .top-read-ad
 .topSponsor
 .top_ad_ban
-.top_box > #foot
-.top_box > #indextop
-.top_box > #news
-.top_box > li > a[href^="/js/app.htm?"]
 .top_func_ad
 .topbanner + .nav + .banner
 .toy52_outer
@@ -799,8 +786,6 @@
 .wp.a_h
 .wp_headline + .ad1
 .wpcom_ad_wrap
-.wrap + #btmBox
-.wrap + #midBox
 .wrap > #btmBox
 .wrap.mt10.clearfix > .box.top_box
 .wrapper > #asxv
@@ -819,10 +804,8 @@
 .yt-ad-com
 .yueduad1
 .zhanzhang_tuijian_btn
-.zhedangceng_ggg
 .zone_wap_banner2
 A[href*=".com/?Agent="]
-A[href="http://t.cn/A6hQCVsv"]
 A[href="javascript:;"][onclick^="lksdjfrefruise"]
 A[href^="/e/public/ClickAd?adid="]
 A[onclick^="diensfeifwejwdsfwemio"]
@@ -916,6 +899,7 @@ a[href="javascript:GoGd();"]
 a[href="javascript:GoTp();"]
 a[href="javascript:window.GoTp();"]
 a[href^="/ad/"] > img[id][src*="hdslb.com"]
+a[href^="/api/jump/"] > img[src*=".xyz/m/"]
 a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 a[href^="/dasp.php?a="]
 a[href^="/hy-"][ontouchstart]
@@ -948,6 +932,7 @@ a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 a[target="_blank"][onclick*="广告点击"]
 body .has-ad
+body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 body > .app + #htmlContenthtml
 body > .dbfh
 body > .zdhf
@@ -960,9 +945,6 @@ body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][targ
 body[onload*="u()"] > #x
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
-body[ontouchstart] > #topBox
-body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
-body[ontouchstart] > div[id^="content_"][style="display: block;"]
 button[onclick*=".xacg.info/"]
 center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -990,7 +972,6 @@ div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 div[style^="line-height"][style*="http"][style$="fixed;"]
 div[style^="position"][onclick^="window.open"]
 div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
-dl#listwoBox
 header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
@@ -1021,7 +1002,6 @@ script + .dbfh
 script + .header_rmb
 script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
-script[src$="/base.js"] + #couplet
 script[src="/js/sy2.js"] + div[align="center"]
 span[title="neteasefooter"]
 style + .a-loading
