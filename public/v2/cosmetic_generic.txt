@@ -535,7 +535,6 @@
 .gpost-below
 .gpt_ads_box
 .gpt_ads_title
-.grid > .m0auto > div > .grid + div:not([class]):not([id])
 .guanggaoBox
 .guruin-ads
 .hao123-unionad-pic
@@ -596,7 +595,6 @@
 .lol_ad
 .look_more_a[onclick^="open_app"]
 .lyzm-prevent
-.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
 .m1938-container
 .m_hot_rec_box_base[id^="right"]
 .main-ad-l
@@ -933,6 +931,7 @@ a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 a[target="_blank"][onclick*="广告点击"]
 body .has-ad
 body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 body > .app + #htmlContenthtml
 body > .dbfh
 body > .zdhf
@@ -941,6 +940,9 @@ body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[st
 body > div[style$=";background: #000;opacity:0.01;"]
 body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
 body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+body > noscript + #root > div > div > .grid + div[role] + div
+body > noscript + #root > div > div > .grid + div[role] + div + div
+body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
 body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 body[onload*="u()"] > #x
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
