@@ -445,6 +445,7 @@
 .comiis_guanggao_tit
 .common-topad
 .common_ad
+.component-advertises
 .con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 .con_section > .da
 .conch-ads-box
