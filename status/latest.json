@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "202609162211",
-  "generated_at": "2026-09-16T22:11:03.839229Z",
+  "version": "202609172210",
+  "generated_at": "2026-09-17T22:10:35.990508Z",
   "repository": "yinvoke/lito-browser-ad-block",
-  "commit": "9737d8fee85a4e42288d423f2dcbbd5d6d27ab3a",
-  "workflow_run": "https://github.com/yinvoke/lito-browser-ad-block/actions/runs/35156353389",
+  "commit": "4e6a2d55579bd2563f0fcefd3e642447a9549e51",
+  "workflow_run": "https://github.com/yinvoke/lito-browser-ad-block/actions/runs/35280664133",
   "counts": {
-    "domains_before_parent_prune": 489972,
-    "domains": 473146,
-    "privacy_domains_before_parent_prune": 43074,
-    "privacy_domains": 43073,
+    "domains_before_parent_prune": 492763,
+    "domains": 475931,
+    "privacy_domains_before_parent_prune": 43079,
+    "privacy_domains": 43078,
     "network_exceptions": 352,
     "cosmetic_generic": 995,
     "cosmetic_specific_hosts": 2951,
@@ -17,14 +17,14 @@
   },
   "sources": {
     "adguard_cn": {
-      "updated_at": "2026-09-16T15:14:26Z",
-      "bytes": 761600,
-      "sha256": "9d5dd49363df82e210bbbfde335ae5f07845f2b8e9ece0f6c9237be0fcb23d34"
+      "updated_at": "2026-09-17T14:17:20Z",
+      "bytes": 761755,
+      "sha256": "a9d9ea31992232d98371fbbf95adf92c20e319f592b160289d3f1bcc5cc46033"
     },
     "adguard_dns": {
-      "updated_at": "2026-09-16T20:15:11.280000Z",
-      "bytes": 4366534,
-      "sha256": "cc1b64b58845c9666ffeec02ee5a4b552361f1820a61fcdb745945eb82dc1530"
+      "updated_at": "2026-09-17T20:15:40.184000Z",
+      "bytes": 4375009,
+      "sha256": "330b6eedeccb715903afaaff74af64f07eab05c4f1f12f95749671b33fc369ed"
     },
     "antiad": {
       "updated_at": "2026-09-16T21:29:08Z",
@@ -32,19 +32,19 @@
       "sha256": "76ed27309b21b82b8a3dfe070168dac2bff7f94fe1dbe940c10c900bd9859ca3"
     },
     "easyprivacy": {
-      "updated_at": "2026-09-16T22:08:00Z",
-      "bytes": 1503185,
-      "sha256": "1bcd2a560438771dd57a8f08925fbb36db0abfb78f9e90e53f0f29937fc90b77"
+      "updated_at": "2026-09-17T22:08:00Z",
+      "bytes": 1503278,
+      "sha256": "f16197d582f3578ac698069050e74d303a3378abe89f52ef16ac492d4a16d8e4"
     },
     "hagezi_pro": {
-      "updated_at": "2026-09-16T08:22:00Z",
-      "bytes": 5006501,
-      "sha256": "1082fc07466410d8146f8d21b7fdb322d15581b261f26e13aa948999def02675"
+      "updated_at": "2026-09-17T08:50:00Z",
+      "bytes": 5037357,
+      "sha256": "d96ad5b28b3e2f69b1dfa796eeddac14af3a74a4173d7bb676ff1caf33d0c98f"
     },
     "hagezi_tif": {
-      "updated_at": "2026-09-16T07:57:00Z",
-      "bytes": 3875719,
-      "sha256": "4a9bf92361eb7f95051d02915f84965dd04d988591b498885ca048b57bf857af"
+      "updated_at": "2026-09-17T10:21:00Z",
+      "bytes": 3912588,
+      "sha256": "8906a9bd4dd5de78da6ba6c3b2d81bfb554d738035d3343b54a1840c9a0355fe"
     }
   }
 }
