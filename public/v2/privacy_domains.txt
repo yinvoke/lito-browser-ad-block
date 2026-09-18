@@ -6782,6 +6782,7 @@ apps.uquote.io
 apps.weekendgowhere.sg
 apps.wholefoodsmarket.com
 apps.zingeroo.com
+appsecstudio.com
 appsecurezomation.carte-gr.total.fr
 apptest.gotvive.com
 apptest.gwsportsapp.in
@@ -7832,6 +7833,7 @@ boundlessbrake.com
 boundlessveil.com
 boutique.ricoh.fr
 bowl.actonservice.com
+bowlershut.com
 box.bossdata.be
 boxandcover.com
 bp.mlb.com
@@ -9917,6 +9919,7 @@ cueohf.forumpro.fr
 cueohf.forumsactifs.com
 cueohf.hungarianforum.com
 cufroa.aboutyou.be
+cuisinevoyager.com
 culliganwaterco.actonservice.com
 culture.intermedes.com
 culture.pandasuite.io
@@ -20233,6 +20236,7 @@ managedaccounts.nvenergy.com
 managedaccounts.pacificpower.net
 managedaccounts.rockymountainpower.net
 manamoment.com
+manateemotors.com
 mandant.net.anwalt.de
 mandrillapp.zola.com
 manufacturing.autodeskcommunications.com
@@ -26945,6 +26949,7 @@ redirect.indacar.io
 redirect.kataklop.com
 redirectdemoqpay.2c2p.com
 redlion.actonservice.com
+redmillgroup.com
 redthreadmarketing.actonservice.com
 redvector.actonservice.com
 redwingforbusiness.redwingsafety.com
