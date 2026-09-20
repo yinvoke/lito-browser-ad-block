@@ -18571,6 +18571,8 @@ lednews.powerint.com
 leecompany.actonservice.com
 leftliquid.com
 legalhold.ediscovery.com
+lego-tech.zhuanzhuan.com
+lego.zhuanzhuan.com
 legolas.monotote.com
 lekfso.hitohana.tokyo
 lem.nouvelobs.com
@@ -35316,6 +35318,7 @@ superficialspring.com
 superficialsquare.com
 superiorgroup.actonservice.com
 superpointlesshamsters.com
+superstarorganizer.com
 superstats.observepoint.com
 supplyreward.com
 support.flex.com
@@ -42596,6 +42599,7 @@ xmqrvx.jewelry-queen-shop.com
 xmyvhu.soxo.pl
 xnukcp.cpcompany.com
 xp.allianz.de
+xp.atlassian.com
 xp2023-pix.s3.amazonaws.com
 xpcpmr.gsm55.com
 xps.huk.de
