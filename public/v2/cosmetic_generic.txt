@@ -781,9 +781,7 @@
 .zhanzhang_tuijian_btn
 .zone_wap_banner2
 A[href*=".com/?Agent="]
-A[href="javascript:;"][onclick^="lksdjfrefruise"]
 A[href^="/e/public/ClickAd?adid="]
-A[onclick^="diensfeifwejwdsfwemio"]
 IMG[onclick*="bucd.lol"]
 [class][onclick="window.location.href='/api/goapp/'"]
 [class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -838,7 +836,6 @@ a[href*="/Register?a="]
 a[href*="/ads/adscenter."]
 a[href*="/auth/register?code="] > img
 a[href*="/d27.tv"]
-a[href*="/entry/register"][href*="i_code"]
 a[href*="/h91.tv"]
 a[href*="/kt169.com"]
 a[href*="/l1y9.com"]
@@ -865,8 +862,6 @@ a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
 a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 a[href*="kdocs.cn"] > img[src*="sstv."]
 a[href*="xchina.click/prepare."]
-a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-a[href="/gghtml/tyc.html"]
 a[href="/goto.php?url=hth"]
 a[href="/ht.html"]
 a[href="/iwagbwfiwehaeyh"]
@@ -905,7 +900,6 @@ a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 a[target="_blank"] > img.king
 a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
-a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 body .has-ad
 body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
@@ -927,15 +921,12 @@ body[onload*="u()"] > #x
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 button[onclick*=".xacg.info/"]
-center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
-center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 div#ad_id
 div#xinxi
 div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
 div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
-div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 div[class^="ps_"][value="20"]
 div[id^="a-loading-"] > span
 div[id^="ad_thread"]
@@ -972,7 +963,6 @@ img[src$="/img/tianbo.gif"]
 img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 img[src*=".jd.com"][style="width:100%;height:70px;"]
 img[src*=".meituan.net"][style="width:100%;height:70px;"]
-img[src*=".meiyida.tv/"]
 img[src*=".qpic.cn"][width="980"][height="80"]
 img[src*=".sinaimg."][style="width:1025px;height:80px"]
 img[src*=".sinaimg."][style="width:150px;height:300px"]
