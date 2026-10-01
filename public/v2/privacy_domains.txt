@@ -8095,6 +8095,7 @@ browser-updater.yandex.net
 browser.covatic.io
 browser.pipe.aria.microsoft.com
 browserguides.net
+browsertdidticket.m.qq.com
 brpayless.eccocar.com
 brqory.notino.sk
 brquazzar.eccocar.com
@@ -9821,6 +9822,7 @@ crrm.onjoyri.de
 crs.actonservice.com
 crta.and.co.uk
 crta.dailymail.co.uk
+crta.dailymail.com
 crta.metro.co.uk
 cruisetourist.com
 crumbs.robinhood.com
@@ -13302,6 +13304,7 @@ events.ricoh.de
 events.ricoh.ie
 events.s4long.com
 events.santander.co.uk
+events.searchtap.net
 events.shareably.net
 events.shoplift.ai
 events.sk.ht
@@ -14224,6 +14227,7 @@ gastdn.wolfandbadger.com
 gatan.actonservice.com
 gateway.aimia.com
 gateway.foresee.com
+gatherer.m.qq.com
 gaudyairplane.com
 gawayez.e-postserv.com
 gay-hotvideo.net
@@ -14531,6 +14535,7 @@ gkfdkf.jdsports.co.uk
 gkgygj.verivox.de
 gkopqp.coccodrillo.eu
 gksqdt.reitmans.com
+gkx.gokwik.co
 gl5g98t0vfjb.panprices.com
 gladysway.com
 glamhawk.com
@@ -19680,6 +19685,7 @@ log.medietall.no
 log.mgtv.com
 log.mix.sina.com.cn
 log.mofa.go.kr
+log.news.baidu.com
 log.nordot.jp
 log.olark.com
 log.outbrain.com
@@ -20284,6 +20290,7 @@ mapp.jysk.nl
 mapp.peacocks.co.uk
 mapp.yesstyle.com
 marblediscussion.com
+marbleseeds.com
 marceline.wantsext.me
 march.landing.ni.com
 marcom.biodex.com
@@ -25417,6 +25424,7 @@ p.pagesjaunes.fr
 p.placed.com
 p.pmu.fr
 p.ryanhalliday.com
+p.sa7eer.com
 p.skimresources.com
 p.spotidownloader.com
 p.tencentmind.com
@@ -26496,6 +26504,7 @@ pulse.ecmapps.com
 pulse.genki.world
 pulse.munsonhealthcare.org
 pulse.shopflo.com
+pulsepoint.ideal.house
 pumlmb.netcologne.de
 pumpedpancake.com
 pumpedpurpose.com
@@ -26951,6 +26960,7 @@ realsolutions.americanexpress.it
 realsolutions.americanexpress.se
 realtime-profiling.datarize.ai
 realtime.bbcl.cl
+realtimeanalytics.yext.com
 realtimely.io
 realtors.eq.delwebb.com
 reaonq.xn--hdks770u8f0a8dvzft.net
@@ -36558,6 +36568,7 @@ techpump.com
 techservices.trapptechnology.com
 techsupport.balluff.com
 teczbq.amicashop.com
+ted.dailymail.co.uk
 tediousbear.com
 tedioustooth.com
 teefiksummin.visma.fi
@@ -41528,6 +41539,7 @@ webstat.4music.com
 webstat.garanti.com.tr
 webstat.qiumibao.com
 webstat.vodafone.com
+webstat.ws.126.net
 webstats.americanbar.org
 webstats.bijenpatel.com
 webstats.cbre.com
