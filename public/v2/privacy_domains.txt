@@ -5183,6 +5183,7 @@ analytics.andrewsmith.com.au
 analytics.animexx.de
 analytics.api.justeattakeaway.com
 analytics.apnewsregistry.com
+analytics.app.funnelish.com
 analytics.archive.org
 analytics.argeton.com
 analytics.arunraghavan.net
@@ -28403,6 +28404,7 @@ scentedkindly.com
 scheduling.qualifi.hr
 schinnerer.actonservice.com
 scholarloop.com
+scholarsark.com
 schoolpaws.com
 schwacke.autovistagroup.com
 schwaebischhall.efscle.com
