@@ -427,7 +427,6 @@
 .chat-right-ad
 .chat-sysbroadcast-ad
 .chat-top-ad
-.col-md-10 > .banner-table-block
 .col6 > a[onclick*="横幅"]
 .comiis_ad
 .comiis_adbox
