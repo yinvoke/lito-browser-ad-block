@@ -35,7 +35,6 @@
 930mh.com/js/config.js
 95306.cn/public/images/ad/
 95504.net/advertisement_
-9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 a1.itc.cn/pv/js/spv.
 acgbenzi.com//dist/images/top.png
 actiris.be/urchin.js
@@ -88,7 +87,6 @@ book.com.tw/image/getimage?
 briian.com/advert.
 bytedance.com/ttwid/union/register/
 camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
-carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 cdn-net.com/cc.js
 cdn.segment.com/analytics-next/
 cdn.segment.com/next-integrations/integrations/
