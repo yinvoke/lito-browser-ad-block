@@ -27,6 +27,7 @@
 #ad-floatwin
 #ad1[onclick="window.open(this.url)"]
 #adBody07
+#adFloat
 #adLeftFloat
 #adRightFloat
 #adUrl
@@ -176,7 +177,6 @@
 #my_dp_a
 #my_gd_a
 #nav + .slider-spons
-#nav-home > .coment-bottom
 #navcontainer + .moneyarea
 #netease_mail_footer
 #news_top_advert
@@ -191,8 +191,6 @@
 #piao_div_4[style*="width:140px;"]
 #piao_div_5[style*="width:140px;"]
 #player-bottom-ads
-#playerAdvLayer
-#playerJsvLayer.jsv-layer
 #player_banner[style*="fixed;"]
 #player_pause > .tip + a[target="_blank"]
 #player_pause[style^="position"] > a[target="_blank"]
@@ -357,7 +355,6 @@
 .adsoho
 .adv-6park
 .adv-couplets
-.adv-g1
 .advInfoElem
 .advert-short
 .advertising_lightbox
@@ -407,7 +404,6 @@
 .bottomd > .closebox2
 .box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 .broadcastMe[style="width: 1200px;"]
-.btn.btn-success.text-white[href*=".com:"]
 .bus_adsbox
 .callApp_fl_btn[onclick^="open_app"]
 .cari-ads
@@ -466,7 +462,6 @@
 .fed-part-case > .ads-img
 .feed-item[data-ad]
 .ff-ads
-.fixed-bottom.jsv.jsv-g1
 .flex-row > #propagandaLeft
 .flex-row > #propagandaRight
 .float-adv-left-bottom
@@ -553,8 +548,6 @@
 .jq_mediav_ad_report
 .jqrp_infoflow_ad
 .js-cui-pt-item[data-qhb]
-.jsv > .mobile-adv
-.jsv-layer > .image > a[href^="http"]
 .ksads
 .leftadv
 .leftd + .rightd
@@ -913,9 +906,6 @@ div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 div[style^="line-height"][style*="http"][style$="fixed;"]
 div[style^="position"][onclick^="window.open"]
 div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
-header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
-header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
-header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
 iframe[src*=".xxmh"][src*="?u="]
 img#GGADIMG
