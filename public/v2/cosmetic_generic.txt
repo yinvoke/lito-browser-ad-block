@@ -292,6 +292,7 @@
 .aab-post
 .aasd-text
 .aasdwa
+.acg-adv-show
 .ad-above-footer
 .ad-below-adjacent-post
 .ad-below-header-menu
@@ -652,6 +653,7 @@
 .pop.pop-bottom
 .pop[style="right: 10px;"]
 .popup + .shortcuts-m-overlay
+.popup-banner-ad
 .postmessage > #googleFirst
 .postmessage > #googleSecond
 .privilege-promote
@@ -707,6 +709,7 @@
 .toy52_outer
 .toy52apparel_ALL
 .trad3
+.ttgg
 .twavt-ads
 .txp_ad[data-role="txpad-interact-pause"]
 .txp_ad_center
