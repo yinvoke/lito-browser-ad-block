@@ -83,7 +83,6 @@
 #cs_left_couplet
 #cs_right_couplet
 #dbgg
-#dgf_pc
 #diads
 #div_top_ads
 #downdiv > .downcode
@@ -280,7 +279,6 @@
 .a_fr
 .a_oscar1
 .a_pb
-.a_ssk_cn
 .a_sxc
 .a_sxfl
 .a_sxmu
@@ -315,7 +313,6 @@
 .ad336left
 .ad990x130
 .ad990x90
-.adContainer[style="margin-top: -5px"]
 .adHF
 .adHF3
 .adHF6
@@ -397,6 +394,7 @@
 .bm.a_c
 .bn728-100
 .bn728-93
+.body-adblock
 .bottomSponsor
 .bottom_mengcheng_ad_wrap
 .bottomads + .leftd
@@ -426,7 +424,6 @@
 .container > #dhshtml
 .container > .index-ad
 .container > .slide-baidu
-.container > a[href^="http"] > .ads
 .containeradvertising
 .content > #dhxhtml
 .content > .dds_w
@@ -511,6 +508,7 @@
 .guruin-ads
 .hao123-unionad-pic
 .hbp > .wp_banner
+.head-adblock
 .heg > .div-list
 .heg > .partner-list
 .hg-ssp-slot
@@ -568,6 +566,7 @@
 .main-container div[id^="z-extra-"]
 .main-container ~ div.z-gate-mask
 .main-container ~ div[class^="z"][class$="-root"]
+.main-content > .ad-shell
 .mainbg > #s11navtop
 .maomi-content > #main-container > .row.mob40 + .row
 .maomi-content > .section-banner
@@ -593,8 +592,6 @@
 .mylist + #topthree
 .mylist > a > img[width^="9"][height="80"]
 .myui-extra + .noticetext
-.nQIAj
-.nQIAj1
 .nav-ads
 .nav-area + .wrapper .tuiguang
 .newsAD
@@ -654,7 +651,6 @@
 .pro1-molnk
 .prom-olnk
 .promlnk[style="position:relative;width:100%;height:100%;"]
-.propa_bottom
 .push-bottom-container[clickmode="cpt"]
 .push-slider[clickmode="cpt"]
 .push-top[clickmode="cpt"]
@@ -716,7 +712,6 @@
 .videoPlayContainer > div#video-play + div[data-nosnippet]
 .vodads
 .w-full > .banner.el-carousel
-.w100b > .m_adv
 .wbalist_thumb[style*="/upload/site/"]
 .wemziguanggao
 .wf_ad_block
@@ -788,7 +783,6 @@ a[href*=".erodatalabs.com/"]
 a[href*=".gaimin.gg/cn"]
 a[href*=".holesg.xyz"]
 a[href*=".hongguotuiguang."]
-a[href*=".jmtybc.com"]
 a[href*=".labsda.com"] > img[src^="/game/20"]
 a[href*=".ssmh"][href*="?u="]
 a[href*=".taobao.com"] > img[src*=".tucao."]
@@ -906,7 +900,7 @@ div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 div[style^="line-height"][style*="http"][style$="fixed;"]
 div[style^="position"][onclick^="window.open"]
 div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
-html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
+html[lang="zh-cn"] > body  > header.Mobile-Header + main#main > div[id][class]:not(#videoListPage,[class*="-"],[class*=" "])
 iframe[src*=".xxmh"][src*="?u="]
 img#GGADIMG
 img#adv1
