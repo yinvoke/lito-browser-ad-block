@@ -1,9 +1,6 @@
 #ADtip
-#Ad_windows
 #ChapterView > .slide-baidu
 #J_sideFooter.side_footer
-#Layeraa1
-#Layeraa2
 #MsnDialog.ad
 #MyMoveAd
 #QEff1
@@ -13,15 +10,12 @@
 #Zi_ad_a_H
 #\31 280_adv
 #\31 x1_container.float-banner-footer
-#__ads_dp
-#__long_gg_container
 #aafoot.top_box
 #aafoot[class^="top_box"]
 #aaheadtop
 #aatop.top_box
 #aatop[class^="top_box"]
 #ad > #h2_player_prevideo
-#ad > .pre-img
 #ad-SNSSplashAd
 #ad-float.kyty
 #ad-floatwin
@@ -47,7 +41,6 @@
 #adv-fixed-square
 #adv_wrap_hh
 #adx_cggp
-#alert_windows > .q-dialog__backdrop
 #app > .publicAllContentBg > .bigBannerBg
 #apprecom1.apprecom
 #apprecom2.apprecom
@@ -66,23 +59,18 @@
 #bfad6
 #body > #left-promotion
 #body > #right-promotion
-#bottom-gg1
 #bottomAD
 #bottomNavad
 #bottombanner
 #bottommob.bottommob
-#breadCrumb + .c + .t[style="margin-top:8px"]
-#breadCrumb + .t[style="margin-top:8px"]
 #chs_bannerArea
 #comiis_xizi_gg02
 #container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
-#container > .sectionBanner
 #cpro_container
 #crazy_ad_float
 #crazy_ad_layer
 #cs_left_couplet
 #cs_right_couplet
-#dbgg
 #diads
 #div_top_ads
 #downdiv > .downcode
@@ -102,7 +90,6 @@
 #footer_fix_ggw
 #frameS8CyqB
 #fucku.col-md-8
-#fuo_top_float
 #fwin_popad_7ree
 #fwin_popad_7ree + #fwin_dialog
 #gg300
@@ -120,7 +107,6 @@
 #header-top + .advertisement
 #header_global_ad
 #hellobox > .mylist
-#hengfu > #jiukan
 #hj-right-aside[style="float: right;"]
 #imgad
 #imgs5[height="60px"]
@@ -192,7 +178,6 @@
 #player-bottom-ads
 #player_banner[style*="fixed;"]
 #player_pause > .tip + a[target="_blank"]
-#player_pause[style^="position"] > a[target="_blank"]
 #popadv_popmask
 #popadv_popmenu
 #popup.t
@@ -202,7 +187,6 @@
 #qinav_a1
 #qj960a
 #qj960b
-#reportPop
 #results.content-main > .eLeft
 #rightCouple
 #rightCouple + #leftFloat
@@ -223,7 +207,6 @@
 #sitefocus.focus
 #snActive-wrap
 #sponsorAdDiv2
-#swtleft[style^="position:fixed;"]
 #syad.visible-xs
 #syad1
 #syad2
@@ -238,18 +221,13 @@
 #tanx-con-1
 #tanx-fold-main
 #taotaole
-#td_tpc > .ads
 #textggs
-#timedfuo
-#top-gg-container
 #topNavad
 #top_ads0
-#top_box > a[onclick^="javascript"]
 #toperAd2
 #toptb + div[align="center"]
 #tripadvisor-ad
 #videoADPIC
-#video_playr_side.video_playr_sider.videoplayerside
 #vpnModal.nordvpn-popup
 #widget-quan
 #wp > .V-video-float
@@ -260,7 +238,6 @@
 #xqad1
 #xqad2
 #xqad3
-.AD_TAC_BOX
 .Flagrow-Ads-under-header
 .MacPlayer > #play-pause
 .RMss1
@@ -333,7 +310,6 @@
 .adppc
 .adpvc
 .adpwc
-.ads > #video_playr_sider
 .ads > a > img[src*=".sinaimg."]
 .ads-after-content
 .ads-after-header
@@ -352,11 +328,9 @@
 .adsoho
 .adv-6park
 .adv-couplets
-.advInfoElem
 .advert-short
 .advertising_lightbox
 .afc_popup
-.alert_windows > .q-card__actions > a
 .anniversary-wrap-2018
 .apd-footer
 .apd-home
@@ -384,8 +358,6 @@
 .baiduad
 .banner-ad-section
 .banner-adv-new
-.banner-cctv-A2
-.banner-cctv-Topping
 .bdyp-sygg-ul
 .below_ads
 .bhgg
@@ -397,9 +369,6 @@
 .body-adblock
 .bottomSponsor
 .bottom_mengcheng_ad_wrap
-.bottomads + .leftd
-.bottomd + .leftd
-.bottomd > .closebox2
 .box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 .broadcastMe[style="width: 1200px;"]
 .bus_adsbox
@@ -448,7 +417,6 @@
 .dipiao
 .downcode[style^="position:fixed;z-index:1000;top:200px;"]
 .dplayer > .tips
-.duilian > .leftd
 .ec-ad
 .ec-tutu
 .edtj
@@ -507,7 +475,6 @@
 .guanggaoBox
 .guruin-ads
 .hao123-unionad-pic
-.hbp > .wp_banner
 .head-adblock
 .heg > .div-list
 .heg > .partner-list
@@ -539,7 +506,6 @@
 .infomation + #notice_container > .event-notice
 .inner-advertise
 .it618_firstad_flex
-.itopbar + .container
 .jav-nav + .bcpic
 .jav-nav + .bcpic2
 .jq_infoflow_ad_wrap
@@ -548,7 +514,6 @@
 .js-cui-pt-item[data-qhb]
 .ksads
 .leftadv
-.leftd + .rightd
 .leo-container .ssr1
 .listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
 .listok > a > img[style^="width:980px;height:"]
@@ -594,6 +559,7 @@
 .myui-extra + .noticetext
 .nav-ads
 .nav-area + .wrapper .tuiguang
+.nav-link[name="temp_ad_adcontrol"]
 .newsAD
 .newstyle > .container > a[target="_blank"]
 .newstyle > a > img[src*="img.com/i/"]
@@ -610,19 +576,16 @@
 .page > .wp-none1
 .page-wwads
 .pagead_3
-.pagecon + .ad1
 .pasuAD
 .pause-ad
 .pc-ads
 .pccb > .ng-star-inserted
 .pcd_ad
-.pcgg
 .pg-body > div[class^="gg_"]
 .pggb > .ng-star-inserted
 .pggc > .ng-star-inserted
 .pggd > .ng-star-inserted
 .pggf > .ng-star-inserted
-.photo-two > a[onclick^="_czc."]
 .player + .sponsor
 .player-bottom-gg
 .player-box > .rm-two > a[target="_blank"]
@@ -636,7 +599,6 @@
 .player-tl > a[target="_blank"]
 .player-tt-rm.rm-list
 .player-tt-rmm
-.player_ggw
 .playtop.col-pd
 .playtopad
 .plc > .a_p
@@ -659,7 +621,6 @@
 .qzhfaaa
 .readerListADbox
 .readmidad
-.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
 .right > .content > .ads
 .ripro_gg_wrap
 .rm-twoa > a[href*=".umtrack.com"]
@@ -667,11 +628,9 @@
 .room-ad-top
 .room-ad-video-down
 .rotate-adv
-.row > .gao-bg
 .rtcenter_game
 .samBannerUnit
 .scupioadslot
-.self-gg
 .single-ad-banner
 .slider-ad[adid]
 .socialmedia > #middletextbanner
@@ -681,7 +640,6 @@
 .static-a2d
 .svg-icon + #player_pause
 .sxAdBox
-.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 .tab-content + .col-pd
 .textadlist
 .tg-m.tg-site
@@ -710,7 +668,6 @@
 .video-item-ads
 .video-player > .gg-bg-cover
 .videoPlayContainer > div#video-play + div[data-nosnippet]
-.vodads
 .w-full > .banner.el-carousel
 .wbalist_thumb[style*="/upload/site/"]
 .wemziguanggao
@@ -728,12 +685,9 @@
 .wp.a2_h
 .wp.a_f
 .wp.a_h
-.wp_headline + .ad1
 .wpcom_ad_wrap
 .wrap > #btmBox
-.wrap.mt10.clearfix > .box.top_box
 .wrapper > #asxv
-.wrapper > a[target="_blank"] > .ads
 .wumii-bottom-popup
 .wumii-widget-ad
 .wwads
@@ -747,7 +701,6 @@
 .yalayi_box
 .yt-ad-com
 .yueduad1
-.zhanzhang_tuijian_btn
 .zone_wap_banner2
 A[href*=".com/?Agent="]
 A[href^="/e/public/ClickAd?adid="]
@@ -769,8 +722,6 @@ a[clickmode="ad"]
 a[clickmode="cpt"]
 a[data-ad_type="1"]
 a[href$=".xyz:8443"]
-a[href$="/hjdt9.com"]
-a[href$="/xha77.com"]
 a[href*=".1699ai.top"]
 a[href*=".6666ai.top"]
 a[href*=".bright.cn/?utm_"]
@@ -850,10 +801,6 @@ a[id][href*="/?register="]
 a[onclick$="'clicked', 'ad');"]
 a[onclick*="/dasp.php?a="]
 a[onclick*="open"] > img[src*=".dailygn.com/"]
-a[onclick^="_czc."] > .add
-a[onclick^="_czc."] > .ads
-a[onclick^="_czc.push(['_trackEvent', '广告"]
-a[onclick^="gtag"] > .add
 a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 a[target="_blank"] > img.king
@@ -874,7 +821,6 @@ body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][
 body > noscript + #root > div > div > .grid + div[role] + div
 body > noscript + #root > div > div > .grid + div[role] + div + div[class]
 body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
-body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 body[onload*="u()"] > #x
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
@@ -917,11 +863,8 @@ script + #coupletBox
 script + #rbbox
 script + .dbfh
 script + .header_rmb
-script[src="/js/sy2.js"] + div[align="center"]
 span[title="neteasefooter"]
 style + .a-loading
-style + .topd
-style + .topd + .bottomd
 style + .vdgdo
 td[id^="td_"] > a[href^="/htmm/"]
 vg-pause-ads

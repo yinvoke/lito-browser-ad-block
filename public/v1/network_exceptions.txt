@@ -105,7 +105,6 @@ cmoney.tw/finance/js/googleanalytics.js
 cmoney.tw/vt/js/google_analytics.js
 cnki.com.cn/cnki/images/ad/2020/1112_45711271.jpg
 cnr.cn/gg/
-cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
 cntv.cn/include/video/js/cntv_advertise.js
 costco.com.tw/_ui/shared/js/analyticsmediator.js
 costco.com.tw/jsps/website/zh/images/location/ad
@@ -342,7 +341,6 @@ xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 xnimg.cn/n/apps/profile/modules/tuiguang/
 yantuchina.com/gg/tmp/hong.gif
 yimuhe.com/n_js/advertiser.js
-youaima.com/zz/play_
 youku.com/cms/player/userinfo/
 youku.com/cms/playlog/get?
 yunduanxin.xyz/static/js/banger.js
