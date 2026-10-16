@@ -10,6 +10,7 @@
 16668tu.com/css/ad.css
 2018x.bid/adview.js
 2345.com/images/activity/20171111/open/j/close.png
+287mm.com/6-js/imgurl.
 31vcd.com/player/kuyun.js
 3gmfw.cn/js/wap/8.js
 40017.cn/cn/min/???/
@@ -28,7 +29,6 @@
 58cdn.com.cn/tuiguang/center/
 58huanbao.com/skin/defaultcs2660/images/ad
 7m.cn/v2/js/analyse.js
-85tube.com/player/player_ads.html
 8891.com.tw/js/v3/bluekai.js
 88box.com/images/ad_images/
 91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
@@ -48,7 +48,6 @@ ad4.on.cc/web/www/delivery/spc.php
 ad4.on.cc/web/www/delivery/spcjs.php
 adidasoriginals-lookbook.com.tw/js/adtracking.js
 adx.yiche.com/cityindex.ashx
-airav.cc/js/td_ga_tracker.js
 airchina.com.cn/dynamicad/
 aixifan.com/acfun-h5/public/script/sensorsdata.
 aixifan.com/acsdk/log.min.js?
@@ -69,8 +68,6 @@ autoimg.cn/bi/common/pvevent_all.
 autoimg.cn/bi/common/pvevent_all_
 av30.xyz/cs/2.js
 bagehd.com/iplookup.
-baidu-taobao-av.com/js/home.js
-baidu-taobao-av.com/js/jquery.
 baidu.com/share/count?
 banma.com/statics/js/??
 bcebos.com/static/translation/widget/translate/output/adbanner/adbanner.js
