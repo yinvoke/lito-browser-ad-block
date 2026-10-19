@@ -365,7 +365,6 @@
 .content-video > .ads-player
 .content_ad_300
 .corner-gg
-.couplet_9cb0d
 .coupletad
 .ctm_ad
 .cui-pt-item[data-qhb]
@@ -543,8 +542,6 @@
 .pop[style="right: 10px;"]
 .popup + .shortcuts-m-overlay
 .popup-banner-ad
-.postmessage > #googleFirst
-.postmessage > #googleSecond
 .privilege-promote
 .pro-molnk
 .pro1-molnk
