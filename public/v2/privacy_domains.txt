@@ -7557,6 +7557,7 @@ beer2s.millerbrewing.com
 beewhispering.com
 beginnerpancake.com
 behave.sn.at
+beholdthyson.com
 belong.curtin.edu.au
 benchlamp.com
 beneficios.davivienda.hn
@@ -7668,6 +7669,7 @@ bint.openapp.link
 bio.chups.co
 bioagiliytix.actonservice.com
 bioanalyticalmarketing.eurofins-info.com
+biocatalysts.net
 biologylog.com
 biophysicsgroup.actonservice.com
 biotechnologysciences.com
@@ -19752,7 +19754,6 @@ log.mgtv.com
 log.mix.sina.com.cn
 log.mofa.go.kr
 log.news.baidu.com
-log.nordot.jp
 log.olark.com
 log.outbrain.com
 log.pinterest.com
@@ -25893,6 +25894,7 @@ pipeline.nachtkastje.nl
 pipelinepub.actonservice.com
 piper.amocrm.ru
 pippio.com
+pipsgain.com
 piq4.inseec.education
 piquantgrove.com
 piquantmeadow.com
@@ -26261,6 +26263,7 @@ polishedfolly.com
 politeplanes.com
 politicalporter.com
 poll.pollinatepolls.com
+polopremier.com
 polypak.actonservice.com
 ponos.zeronaught.com
 ponyo.cheriefm.fr
@@ -26434,6 +26437,7 @@ prod.nitrosniffer.ottogroup.io
 prod.tahoe-analytics.publishers.advertising.a2z.com
 prod.tracking.refinitiv.com
 proditor.sparda.de
+prodsmax.com
 producecopy.com
 producepickle.com
 product.cel-fi.com
@@ -36197,6 +36201,7 @@ ta.sanook.com
 ta.taxslayer.com
 ta.trs.cn
 tabcarts.com
+tableleaders.com
 tablesafe.actonservice.com
 tackytrains.com
 tacojournal.com
@@ -36659,6 +36664,7 @@ technology1.informaengage.com
 technologyadvice.actonservice.com
 technologyservices.equifax.com
 technologyservices.inform.equifax.com
+technonstop.com
 techprovider.intel.com
 techpump.com
 techservices.trapptechnology.com
@@ -42983,6 +42989,7 @@ yourbrandlive.actonservice.com
 yourcare.pennstatehealth.org
 yourerc.actonservice.com
 yourfuture.walsh.edu
+yourgiftedbaby.com
 yourhealth.bassett.org
 yourhealth.bassetthealthnews.org
 yourhealth.cooperhealth.org
