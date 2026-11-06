@@ -322,6 +322,7 @@
 .baiduad
 .banner-ad-section
 .banner-adv-new
+.banner-slot-wrap[style^="margin-top:8px;margin-bottom:"]
 .bdyp-sygg-ul
 .below_ads
 .bhgg
@@ -394,7 +395,6 @@
 .floating-ad
 .fnwehjnc12
 .frAd
-.frontpageAdvM
 .ftad-ct
 .full.banners12
 .getads
@@ -555,7 +555,6 @@
 .qzhfaaa
 .readerListADbox
 .readmidad
-.right > .content > .ads
 .ripro_gg_wrap
 .rm-twoa > a[href*=".umtrack.com"]
 .room-ad-bottom
@@ -601,7 +600,6 @@
 .video-player > .gg-bg-cover
 .videoPlayContainer > div#video-play + div[data-nosnippet]
 .wbalist_thumb[style*="/upload/site/"]
-.wemziguanggao
 .wf_ad_block
 .widget-qianhuiji
 .widget-topadding

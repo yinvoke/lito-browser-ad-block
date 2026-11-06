@@ -66,7 +66,6 @@ astyle.alicdn.com/??
 autohome.com.cn/javascript/fingerprint.js
 autoimg.cn/bi/common/pvevent_all.
 autoimg.cn/bi/common/pvevent_all_
-av30.xyz/cs/2.js
 bagehd.com/iplookup.
 baidu.com/share/count?
 banma.com/statics/js/??
