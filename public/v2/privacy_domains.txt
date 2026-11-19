@@ -6847,6 +6847,7 @@ ar.quadient.com
 ar1.aza.io
 aragenbio.actonservice.com
 aragonresearch.actonservice.com
+arc.msn.com
 arch.net.jumia.ug
 arch.onjoyri.de
 archiv.promatis.de
@@ -7161,6 +7162,7 @@ awuapj.landwatch.com
 awzbijw.com
 ax.babe.today
 ax.idg.se
+axcii.com
 axentis.arclogics.com
 axfevh.bandab.com.br
 axiomaticanger.com
@@ -7579,6 +7581,7 @@ belong.curtin.edu.au
 benchlamp.com
 beneficios.davivienda.hn
 beneficios.davivienda.sv
+benefitboys.com
 benefits.aon.com
 benefitssense.com
 benelux2.secureforms.mcafee.com
@@ -8362,6 +8365,7 @@ ca.mattamyhomes.com
 ca.ssl.holdmybeerconsulting.com
 caamcs.julipet.it
 caapp.levi.com
+cabstrategy.com
 cache2.delvenetworks.com
 cactus.jd.com
 cactus.joybuy.com
@@ -9098,6 +9102,7 @@ cntccc.publicrec.com
 cntxtfl.com
 cnxddc.lodenfrey.com
 coalkitchen.com
+coalmerchants.com
 coastersim.com
 coatfood.com
 cobaltoverture.com
@@ -9123,6 +9128,7 @@ col.idealista.pt
 col.rentalia.com
 coldbalance.com
 coldcallpro.com
+coldcrucible.com
 coletor.terra.com
 colgui.vidaxl.pt
 collab9.actonservice.com
@@ -9259,6 +9265,7 @@ comms.groupmarketing.dimensiondata.com
 comms.hello.global.ntt
 comms.services.global.ntt
 comms.supplychain.nhs.uk
+commswap.com
 communicate.apcerls.com
 communicate.choicelogistics.com
 communicate.cision.ca
@@ -13270,6 +13277,7 @@ event.jma.or.jp
 event.ortec.com
 event.platform.autotrader.com.au
 event.platform.tunein.com
+event.prod.asgard.hullabalook.com
 event.raise3d.cn
 event.seatradecruiseevents.com
 event.seatradecruiseglobal.com
@@ -14336,6 +14344,7 @@ gatan.actonservice.com
 gateway.aimia.com
 gateway.foresee.com
 gatherer.m.qq.com
+gator.volces.com
 gaudyairplane.com
 gawayez.e-postserv.com
 gay-hotvideo.net
@@ -17578,6 +17587,7 @@ insights.att.com
 insights.avad3.com
 insights.biallo.de
 insights.bodogaffiliate.com
+insights.builderprofile.aws.dev
 insights.cdt.ch
 insights.diamond-consultants.com
 insights.golubcapital.com
@@ -24624,6 +24634,7 @@ nlbukc.babyworld.se
 nlf6.vente-unique.pl
 nlgzhd.yoox.com
 nljjem.honeys-onlineshop.com
+nlog.instajob.ai
 nlp-japan.life-and-mind.com
 nltcs.idfnet.net
 nltihf.fashiondays.ro
@@ -25596,6 +25607,7 @@ p.ryanhalliday.com
 p.sa7eer.com
 p.skimresources.com
 p.spotidownloader.com
+p.teamily.ai
 p.tencentmind.com
 p.tryretool.com
 p.typekit.net
@@ -26721,6 +26733,7 @@ pushspring.actonservice.com
 putphc.zuhre.com.tr
 puzzle.spiriteq.com
 pv-track.pxtrkapp.com
+pv-track.venatus.com
 pv.hd.sohu.com
 pv.kuaizhan.com
 pv.ltn.com.tw
@@ -27894,6 +27907,7 @@ s.saucisson-rebellion.fr
 s.save.ca
 s.sick.com
 s.simcoe.com
+s.sintra.ai
 s.sporks.space
 s.srvsynd.com
 s.stcatharinesstandard.ca
@@ -29496,6 +29510,7 @@ sfpc.changehealthcare.com
 sfr.mno.link
 sfsinfo.sabic.com
 sftrack.searchforce.net
+sg-fp.apitd.net
 sg-go.experian.com
 sg.carousellmotors.com
 sg.lucanet.com
@@ -41850,6 +41865,7 @@ webtraffic.executiveboard.com
 webtraffic.mastercontrol.com
 webts.adac.de
 webvitals.luxnet.ua
+webworksworld.com
 weeklycurrents.com
 weidenhammer.actonservice.com
 wejpuy.factor75.com
