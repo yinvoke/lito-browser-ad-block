@@ -8616,6 +8616,7 @@ cdn.q4x8n6b2t5.com
 cdn.ravm.tv
 cdn.seonintelligence.com
 cdn.sy-d.io
+cdn.t2037ulzqct5.com
 cdn.usefathom.com
 cdn.visits.dqapis.com
 cdn.x7k9m2q4z8r1.com
@@ -9229,6 +9230,7 @@ collegeauthority.actonservice.com
 colliers.actonservice.com
 coloradoserves.com
 colorandnoise.com
+colorfilter.net
 colorfulneon.com
 colorfulpet.com
 coloroptimizer.com
@@ -11028,6 +11030,7 @@ dd.g2.com
 dd.garena.com
 dd.leboncoin.fr
 dd.nytimes.com
+dd.reuters.com
 dd.seloger-bureaux-commerces.com
 dd.seloger.com
 dd.selogerneuf.com
@@ -21959,6 +21962,7 @@ mas.marsh.com
 mas.nth.ch
 mascguys.com
 maskedadmin.com
+masondown.com
 masseurexpress.com
 massivemark.com
 master.cifraclub.com.br
@@ -24629,6 +24633,7 @@ ninjatravels.com
 nirdjz.revolveclothing.com.au
 nisaapp.nexus-dt.com
 nisii.resiliencelabo.com
+nitrojiveband.com
 nitrous-analytics.s3.amazonaws.com
 nixie.starlightnet.work
 njnlih.realitatea.net
@@ -25422,6 +25427,7 @@ orbis.actonservice.com
 orchidgenius.com
 ordbng.extra.com.br
 orderjumper.com
+ordinalzero.com
 ordpmx.victorianplumbing.co.uk
 oregonstate.actonservice.com
 organiccdn.io
@@ -27105,6 +27111,7 @@ rangergustav.com
 rankaddict.com
 rankhit.china.com
 rapidpanda.io
+rapidscraper.com
 rapidzebra.io
 raqwjl.dienthoaigiakho.vn
 rarelyfans.com
@@ -35891,9 +35898,6 @@ sxjfhh.vcstar.com
 sxmxpm.nectarsleep.com
 sxp.allianz.de
 sxwxswg8z1xe.www.arnowebtv.com
-sy.ameba.jp
-sy.amebame.com
-sy.ameblo.jp
 sy57d8wi.com
 syfwnf.society6.com
 syllablesight.com
@@ -41248,7 +41252,6 @@ view.fujitv.co.jp
 view.kirbybuildingsystems.com
 view.metlspan.com
 view.nucorbuildingsystems.com
-view.publitas.com
 viewer.pandasuite.io
 viewresource.com
 views.arabnews.com
